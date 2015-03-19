@@ -1,7 +1,7 @@
 AppAnnie::Application.routes.draw do
 
 	root :to => "appannie#index"
-	resources :appannie
+	# resources :appannie
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
