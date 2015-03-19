@@ -1,1 +1,6 @@
-<% @achievements.each { |badge_element| puts badge_element.text } %>
+<div>
+  <% @achievements.each do |badge_element| %>
+		<%= badge_element.text %>
+		</br>
+		<% end %>
+</div>
