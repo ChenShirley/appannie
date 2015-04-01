@@ -1,0 +1,17 @@
+<%= link_to "Get Ratings", rating_index_path %>
+
+Top 100 names & links in appannie for free, paid and grossing apps
+</br>
+<div>
+	<% @rank.each do |p| %>
+		<%= p.apptype %>
+    </br>
+    <%= p.rank %>
+    </br>
+		<%= p.name %>
+    </br>
+		<%= p.link %>
+    </br>
+ 		</br>
+  <% end %>
+</div>

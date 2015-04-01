@@ -1,0 +1,50 @@
+<% @rating.each do |app| %>
+
+<div>
+App Name:	<%= app.name %>
+</div>
+
+<div>
+Country: <%= app.country %>
+</div>
+
+<div>
+Current Version:
+</br>
+Average: <%= app.average_current %>
+Total: <%= app.total_current %>
+</br>
+
+  <%= app.current1 %>
+    </br>
+  <%= app.current2 %>
+    </br>
+  <%= app.current3 %>
+    </br> 
+  <%= app.current4 %>
+    </br>
+  <%= app.current5 %>
+    </br>
+</div>
+
+<div>
+All Version:
+</br>
+Average: <%= app.average_all %>
+</br>
+Total: <%= app.total_all %>
+</br>
+
+  <%= app.all1 %>
+    </br>
+  <%= app.all2 %>
+    </br>
+  <%= app.all3 %>
+    </br> 
+  <%= app.all4 %>
+    </br>
+  <%= app.all5 %>
+    </br>
+</div>
+
+<% end %>

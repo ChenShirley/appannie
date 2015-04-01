@@ -1,0 +1,51 @@
+
+<%= @apprating.country %>
+
+<div>
+App Name:
+	<%= @app.text %>
+</div>
+
+<div>
+Country:
+	<%= @country.text %>
+</div>
+
+<div>
+Current Version:
+</br>
+Average: 
+</br>
+  <%= @average_current.text %>
+    </br>
+  <%= @total_current.text %>
+    </br>
+
+  <%= @current1.text %>
+    </br>    </br>
+  <%= @current2.text %>
+    </br>    </br>
+  <%= @current3.text %>
+    </br>    </br>
+  <%= @current4.text %>
+    </br>    </br>    </br>
+  <%= @current5.text %>
+    </br>
+</div>
+
+<div>
+All Version:
+</br>
+Average: 
+</br>
+  <%= @average_all.text %>
+    </br>
+  <%= @total_all.text %>
+    </br>
+
+
+  <% @all.each do |badge_element| %>
+    <%= badge_element.text %>
+    </br>
+  <% end %>
+</div>

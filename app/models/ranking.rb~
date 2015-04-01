@@ -1,0 +1,4 @@
+class Ranking < ActiveRecord::Base
+  attr_accessible :type, :rank, :name, :link
+
+end

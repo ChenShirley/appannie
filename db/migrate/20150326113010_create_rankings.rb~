@@ -1,0 +1,11 @@
+class CreateRankings < ActiveRecord::Migration
+  def change
+    create_table :rankings do |t|
+      t.string :type
+      t.integer :rank
+      t.string :name
+      t.text :link
+      t.timestamps
+    end
+  end
+end

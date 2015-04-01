@@ -1,0 +1,44 @@
+class RankingController < ApplicationController
+	require 'rubygems'
+	require 'open-uri'
+	require 'nokogiri'
+	require 'httparty'
+
+	def index
+		# top 100 apps ranking for free, paid, grossing 
+		web_data = open('http://www.appannie.com/apps/ios/top/?device=iphone', 'User-Agent' => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36")
+		doc = Nokogiri.HTML(web_data)
+
+		# app name & link
+		@apprank = doc.xpath("//span[@class='oneline-info title-info']//a")
+		@apprank.each do |record|
+			Ranking.create(:name => record.text, :link => "http://www.appannie.com#{record['href']}")
+		end
+
+		@rank = Ranking.all
+
+		free_count = 1
+		paid_count = 1
+		grossing_count = 1
+		@rank.each do |apptype|
+			if apptype.id.to_i % 3 == 1
+				apptype.update_attributes!(:apptype => "free", :rank => free_count)
+				free_count = free_count + 1
+			elsif apptype.id.to_i % 3 == 2
+				apptype.update_attributes!(:apptype => "paid", :rank => paid_count)
+				paid_count = paid_count + 1
+			else
+				apptype.update_attributes!(:apptype => "grossing", :rank => grossing_count)
+				grossing_count = grossing_count + 1
+			end
+		end
+
+		# Search for all tags containing "href" attributes (i.e., links) in HTML
+		# Get just the value of the href paths (i.e., URL string)
+		# Only select paths that follow hypertext protocol
+		# @selectedPaths = doc.xpath("//span[@class='oneline-info title-info']//*/@href")
+		#										.map {|path| path.value}
+		#										.select {|e| e[0..13]=='/apps/ios/app/'}
+
+	end
+end
