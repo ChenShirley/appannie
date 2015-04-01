@@ -6,27 +6,35 @@ class RankingController < ApplicationController
 
 	def index
 		# top 100 apps ranking for free, paid, grossing 
-		web_data = open('http://www.appannie.com/apps/ios/top/?device=iphone', 'User-Agent' => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36")
-		doc = Nokogiri.HTML(web_data)
+		#web_data = open('http://www.appannie.com/apps/ios/top/?device=iphone', 'User-Agent' => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36")
+		#doc = Nokogiri.HTML(web_data)
+
+		f = File.open("/home/shirley/AppAnnie/public/top500.xml")
+		doc = Nokogiri::XML(f)
+		f.close
 
 		# app name & link
 		@apprank = doc.xpath("//span[@class='oneline-info title-info']//a")
 		@apprank.each do |record|
-			Ranking.create(:name => record.text, :link => "http://www.appannie.com#{record['href']}")
+			Fullrank.create(:name => record.text, :link => "https://www.appannie.com#{record['href']}")
 		end
 
-		@rank = Ranking.all
+		@rank = Fullrank.all
 
-		count = 1
+		free_count = 1
+		paid_count = 1
+		grossing_count = 1
 		@rank.each do |apptype|
 			if apptype.id.to_i % 3 == 1
-				apptype.update_attributes!(:apptype => "free", :rank => count)
+				apptype.update_attributes!(:apptype => "free", :rank => free_count)
+				free_count = free_count + 1
 			elsif apptype.id.to_i % 3 == 2
-				apptype.update_attributes!(:apptype => "paid", :rank => count)
+				apptype.update_attributes!(:apptype => "paid", :rank => paid_count)
+				paid_count = paid_count + 1
 			else
-				apptype.update_attributes!(:apptype => "grossing", :rank => count)
+				apptype.update_attributes!(:apptype => "grossing", :rank => grossing_count)
+				grossing_count = grossing_count + 1
 			end
-			count = count + 1
 		end
 
 		# Search for all tags containing "href" attributes (i.e., links) in HTML

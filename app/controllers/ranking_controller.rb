@@ -5,17 +5,24 @@ class RankingController < ApplicationController
 	require 'httparty'
 
 	def index
-		# top 100 apps ranking for free, paid, grossing 
-		web_data = open('http://www.appannie.com/apps/ios/top/?device=iphone', 'User-Agent' => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36")
-		doc = Nokogiri.HTML(web_data)
+		# top 100 apps ranking for free, paid, grossing (from app annie website)
+		# web_data = open('http://www.appannie.com/apps/ios/top/?device=iphone', 'User-Agent' => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36")
+		# doc = Nokogiri.HTML(web_data)
+
+		# Using firefox inspector to get the whole top 500 HTML
+		f = File.open("/home/shirley/AppAnnie/public/top500.xml")
+		doc = Nokogiri::XML(f)
+		f.close
 
 		# app name & link
 		@apprank = doc.xpath("//span[@class='oneline-info title-info']//a")
 		@apprank.each do |record|
-			Ranking.create(:name => record.text, :link => "http://www.appannie.com#{record['href']}")
+			Fullrank.create(:name => record.text, :link => "https://www.appannie.com#{record['href']}")
 		end
 
-		@rank = Ranking.all
+		# using rank id to calculate apps' real ranking order and type (free, paid, grossing)
+		# HTML structure in //table //tr //td //span: free --> paid --> grossing
+		@rank = Fullrank.all
 
 		free_count = 1
 		paid_count = 1

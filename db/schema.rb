@@ -11,7 +11,46 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150326113010) do
+ActiveRecord::Schema.define(:version => 20150401104429) do
+
+  create_table "fullranks", :force => true do |t|
+    t.string   "apptype"
+    t.integer  "rank"
+    t.string   "name"
+    t.text     "link"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "fullratings", :force => true do |t|
+    t.string   "name"
+    t.string   "country"
+    t.string   "compatibility"
+    t.string   "category"
+    t.string   "updated_date"
+    t.string   "size"
+    t.string   "seller"
+    t.string   "rated"
+    t.string   "requirements"
+    t.string   "bundleid"
+    t.string   "average_current"
+    t.string   "total_current"
+    t.string   "average_all"
+    t.string   "total_all"
+    t.string   "current1"
+    t.string   "current2"
+    t.string   "current3"
+    t.string   "current4"
+    t.string   "current5"
+    t.string   "all1"
+    t.string   "all2"
+    t.string   "all3"
+    t.string   "all4"
+    t.string   "all5"
+    t.integer  "fullrank_id"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
 
   create_table "rankings", :force => true do |t|
     t.string   "apptype"
