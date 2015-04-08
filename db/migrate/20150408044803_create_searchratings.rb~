@@ -1,0 +1,8 @@
+class CreateSearchratings < ActiveRecord::Migration
+  def change
+    create_table :searchratings do |t|
+
+      t.timestamps
+    end
+  end
+end

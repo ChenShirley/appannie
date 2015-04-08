@@ -4,6 +4,7 @@ AppAnnie::Application.routes.draw do
 	root :to => "ranking#index"
 	resources :rating
 	resources :ranking
+	resources :search
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

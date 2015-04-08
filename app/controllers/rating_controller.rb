@@ -14,6 +14,10 @@ class RatingController < ApplicationController
 
 			# app name
 			@appname = doc.xpath("//div[@class='app-info-top']//h2[@class='asset-name ']").text
+			# app store
+			@store = doc.xpath("//div[@class='sidebar-inner']//span[@itemprop='seller']/span[@itemprop='name']/@content").text
+			# app price
+			@price = doc.xpath("//div[@class='sidebar-inner']//span[@itemprop='price']/@content").text
 
 			# app compatibility
 			@compatibility = doc.xpath("//div[@class='app-box-itemlist about_app']//div[@class='app-box-content']//p//b[.='Compatibility:']/following-sibling::text()[1]").text
@@ -54,7 +58,7 @@ class RatingController < ApplicationController
 			@average_all = doc.xpath("//div[@id='r_all_content']//strong[1]").text
 			@total_all = doc.xpath("//div[@id='r_all_content']//strong[last()]").text
 
-			Fullrating.create(:name => @appname, :country => @country,
+			Fullrating.create(:name => @appname, :store => @store, :price => @price, :country => @country,
 										:compatibility => @compatibility, :category => @category, :updated_date => @updated_date, 
 										:size => @size, :seller => @seller, :rated => @rated, :requirements => @requirements, :bundleid => @bundleid,
 										:average_current => @average_current, :total_current => @total_current,
@@ -64,7 +68,7 @@ class RatingController < ApplicationController
 										:fullrank_id => record.id)
 
 			# avoid IP blocked by app annie because of frequently request 
-      sleep 5
+      sleep 2
 		end
 
 # paid app ratings
@@ -75,6 +79,10 @@ class RatingController < ApplicationController
 
 			# app name
 			@appname = doc.xpath("//div[@class='app-info-top']//h2[@class='asset-name ']").text
+			# app store
+			@store = doc.xpath("//div[@class='sidebar-inner']//span[@itemprop='seller']/span[@itemprop='name']/@content").text
+			# app price
+			@price = doc.xpath("//div[@class='sidebar-inner']//span[@itemprop='price']/@content").text
 
 			# app compatibility
 			@compatibility = doc.xpath("//div[@class='app-box-itemlist about_app']//div[@class='app-box-content']//p//b[.='Compatibility:']/following-sibling::text()[1]").text
@@ -115,7 +123,7 @@ class RatingController < ApplicationController
 			@average_all = doc.xpath("//div[@id='r_all_content']//strong[1]").text
 			@total_all = doc.xpath("//div[@id='r_all_content']//strong[last()]").text
 
-			Fullrating.create(:name => @appname, :country => @country,
+			Fullrating.create(:name => @appname, :store => @store, :price => @price, :country => @country,
 										:compatibility => @compatibility, :category => @category, :updated_date => @updated_date, 
 										:size => @size, :seller => @seller, :rated => @rated, :requirements => @requirements, :bundleid => @bundleid,
 										:average_current => @average_current, :total_current => @total_current,
@@ -124,7 +132,7 @@ class RatingController < ApplicationController
 										:all1 => @all1, :all2 => @all2, :all3 => @all3, :all4 => @all4, :all5 => @all5,
 										:fullrank_id => record.id)
 
-      sleep 5
+      sleep 2
 		end
 
 # grossing app ratings
@@ -135,6 +143,10 @@ class RatingController < ApplicationController
 
 			# app name
 			@appname = doc.xpath("//div[@class='app-info-top']//h2[@class='asset-name ']").text
+			# app store
+			@store = doc.xpath("//div[@class='sidebar-inner']//span[@itemprop='seller']/span[@itemprop='name']/@content").text
+			# app price
+			@price = doc.xpath("//div[@class='sidebar-inner']//span[@itemprop='price']/@content").text
 
 			# app compatibility
 			@compatibility = doc.xpath("//div[@class='app-box-itemlist about_app']//div[@class='app-box-content']//p//b[.='Compatibility:']/following-sibling::text()[1]").text
@@ -175,7 +187,7 @@ class RatingController < ApplicationController
 			@average_all = doc.xpath("//div[@id='r_all_content']//strong[1]").text
 			@total_all = doc.xpath("//div[@id='r_all_content']//strong[last()]").text
 
-			Fullrating.create(:name => @appname, :country => @country,
+			Fullrating.create(:name => @appname, :store => @store, :price => @price, :country => @country,
 										:compatibility => @compatibility, :category => @category, :updated_date => @updated_date, 
 										:size => @size, :seller => @seller, :rated => @rated, :requirements => @requirements, :bundleid => @bundleid,
 										:average_current => @average_current, :total_current => @total_current,
@@ -184,11 +196,12 @@ class RatingController < ApplicationController
 										:all1 => @all1, :all2 => @all2, :all3 => @all3, :all4 => @all4, :all5 => @all5,
 										:fullrank_id => record.id)
 
-      sleep 5
+      sleep 2
 		end
 
 		# show rating information from database to check whether it is success or not
 		@rating = Fullrating.limit(2).all
 
 	end
+
 end

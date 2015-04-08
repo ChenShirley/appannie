@@ -1,6 +1,6 @@
-class CreateFullratings < ActiveRecord::Migration
+class CreateSearchratings < ActiveRecord::Migration
   def change
-    create_table :fullratings do |t|
+    create_table :searchratings do |t|
       t.string :name
       t.string :store
       t.string :price
@@ -28,7 +28,7 @@ class CreateFullratings < ActiveRecord::Migration
       t.string :all4
       t.string :all5
 
-      t.references :fullrank
+      t.references :search
       t.timestamps
     end
   end

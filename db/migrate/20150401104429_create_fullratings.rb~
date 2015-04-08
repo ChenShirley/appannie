@@ -3,6 +3,14 @@ class CreateFullratings < ActiveRecord::Migration
     create_table :fullratings do |t|
       t.string :name
       t.string :country
+      t.string :compatibility
+      t.string :category
+      t.string :updated_date
+      t.string :size
+      t.string :seller
+      t.string :rated
+      t.string :requirements
+      t.string :bundleid
       t.string :average_current
       t.string :total_current
       t.string :average_all
