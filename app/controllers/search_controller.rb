@@ -27,8 +27,8 @@ class SearchController < ApplicationController
 			# avoid IP blocked by app annie because of frequently request 
 			sleep 1
 		end
-
-		@searchrecord = Search.all
+=begin
+		@searchrecord = Search.offset(512).limit(10).all
 		
 		@searchrecord.each do |record|
 			doc = Nokogiri.HTML(open("#{record.link}", 'User-Agent' => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"))
@@ -94,6 +94,8 @@ class SearchController < ApplicationController
 
 		# show rating information from database to check whether it is success or not
 		@rating = Searchrating.limit(2).all
+=end
+
 	end
 
 end
