@@ -3,7 +3,21 @@
 </br>
 <div>
 	<% @feedback.each do |p| %>
-		<%= p.whole %>
+		<%= p.name %>
+    </br>
+		<%= p.star%>
+    </br>
+		<%= p.title %>
+    </br>
+		<%= p.author %>
+    </br>
+		<%= p.content %>
+    </br>
+		<%= p.date %>
+    </br>
+		<%= p.country %>
+    </br>
+		<%= p.version %>
     </br>
  		</br>
   <% end %>

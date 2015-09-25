@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150912132159) do
+ActiveRecord::Schema.define(:version => 20150925074738) do
 
   create_table "appprices", :force => true do |t|
     t.string   "name"
@@ -92,8 +92,50 @@ ActiveRecord::Schema.define(:version => 20150912132159) do
     t.datetime "updated_at",      :null => false
   end
 
+  create_table "realapps", :force => true do |t|
+    t.text     "link"
+    t.string   "name"
+    t.text     "icon"
+    t.string   "store"
+    t.string   "price"
+    t.text     "description"
+    t.string   "country"
+    t.float    "average_current"
+    t.integer  "total_current"
+    t.float    "average_all"
+    t.integer  "total_all"
+    t.integer  "current1"
+    t.integer  "current2"
+    t.integer  "current3"
+    t.integer  "current4"
+    t.integer  "current5"
+    t.integer  "all1"
+    t.integer  "all2"
+    t.integer  "all3"
+    t.integer  "all4"
+    t.integer  "all5"
+    t.string   "distribution"
+    t.string   "compatibility"
+    t.string   "category"
+    t.string   "updated_date"
+    t.string   "size"
+    t.string   "seller"
+    t.string   "rated"
+    t.string   "requirements"
+    t.string   "bundleid"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
+  end
+
   create_table "reviews", :force => true do |t|
-    t.text     "whole"
+    t.string   "name"
+    t.integer  "star"
+    t.text     "title"
+    t.text     "author"
+    t.text     "content"
+    t.string   "date"
+    t.string   "country"
+    t.string   "version"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

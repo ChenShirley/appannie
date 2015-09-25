@@ -1,0 +1,82 @@
+class RealappController < ApplicationController
+
+	require 'rubygems'
+	require 'open-uri'
+	require 'nokogiri'
+	require 'httparty'
+
+	def index
+
+		# search app and get the HTML from appannie
+		# web_data = open('https://www.appannie.com/apps/ios/app/fitbit/', 'User-Agent' => "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36")
+		# doc = Nokogiri.HTML(web_data)
+
+		f = File.open("/home/shirley/AppAnnie/public/fitbit.xml")
+		doc = Nokogiri::XML(f)
+		f.close
+
+		# app name & link & icon
+		@link = doc.xpath("//li[@class='current ']/a/@href").text
+		@name = doc.xpath("//div[@class='app_name current']//span[@class='name']").text
+		@icon = doc.xpath("//img[@class='itc']/@src").text
+
+		# app store
+		@store = doc.xpath("//span[@itemprop='seller']/span[@itemprop='name']/@content").text
+		# app price
+		@price = doc.xpath("//span[@itemprop='price']/@content").text
+
+		# app description
+		@description = doc.xpath("//div[@itemprop='description']").text.gsub(/\n/, " ")
+
+		# Average Ratings's country
+		@country = doc.xpath("//span[@class='country']").text
+
+		# get the 10 rating distribution numbers, current5 means the amount of five star rating
+		@current5 = doc.xpath("//div[@id='r_current_content']//tr[1]//td[@class='count']").text.delete("(").delete(")").delete(",")
+		@current4 = doc.xpath("//div[@id='r_current_content']//tr[2]//td[@class='count']").text.delete("(").delete(")").delete(",")
+		@current3 = doc.xpath("//div[@id='r_current_content']//tr[3]//td[@class='count']").text.delete("(").delete(")").delete(",")
+		@current2 = doc.xpath("//div[@id='r_current_content']//tr[4]//td[@class='count']").text.delete("(").delete(")").delete(",")
+		@current1 = doc.xpath("//div[@id='r_current_content']//tr[5]//td[@class='count']").text.delete("(").delete(")").delete(",")
+		@all5 = doc.xpath("//div[@id='r_all_content']//tr[1]//td[@class='count']").text.delete("(").delete(")").delete(",")
+		@all4 = doc.xpath("//div[@id='r_all_content']//tr[2]//td[@class='count']").text.delete("(").delete(")").delete(",")
+		@all3 = doc.xpath("//div[@id='r_all_content']//tr[3]//td[@class='count']").text.delete("(").delete(")").delete(",")
+		@all2 = doc.xpath("//div[@id='r_all_content']//tr[4]//td[@class='count']").text.delete("(").delete(")").delete(",")
+		@all1 = doc.xpath("//div[@id='r_all_content']//tr[5]//td[@class='count']").text.delete("(").delete(")").delete(",")
+
+		# average & total volume
+		@average_current = doc.xpath("//div[@id='r_current_content']//strong[1]").text
+		@total_current = doc.xpath("//div[@id='r_current_content']//strong[last()]").text.delete(",")
+
+		@average_all = doc.xpath("//div[@id='r_all_content']//strong[1]").text
+		@total_all = doc.xpath("//div[@id='r_all_content']//strong[last()]").text.delete(",")
+
+		# app compatibility
+		@compatibility = doc.xpath("//b[.='Compatibility:']/following-sibling::text()[1]").text
+		# app category
+		@category = doc.xpath("//b[.='Category:']/following-sibling::text()[1]").text
+		# app updated_date
+		@updated_date = doc.xpath("//b[.='Updated:']/following-sibling::text()[1]").text
+		# app size
+		@size = doc.xpath("//b[.='Size:']/following-sibling::text()[1]").text
+		# app seller
+		@seller = doc.xpath("//b[.='Seller:']/following-sibling::text()[1]").text
+		# app rating rated
+		@rated = doc.xpath("//b[.='Rating: ']/following-sibling::text()[1]").text
+		# app requirements
+		@requirements = doc.xpath("//b[.='Requirements:']/following-sibling::text()[1]").text
+		# app bundle id
+		@bundleid = doc.xpath("//b[.='Bundle ID:']/following-sibling::text()[1]").text
+
+
+		Realapp.create(:link => "https://www.appannie.com#{@link}", :name => @name, :icon => @icon, :store => @store, :price => @price,
+									:description => @description, :country => @country,
+									:average_current => @average_current, :total_current => @total_current,
+									:average_all => @average_all, :total_all => @total_all, 
+									:current1 => @current1, :current2 => @current2, :current3 => @current3, :current4 => @current4, :current5 => @current5,
+									:all1 => @all1, :all2 => @all2, :all3 => @all3, :all4 => @all4, :all5 => @all5,
+									:compatibility => @compatibility, :category => @category, :updated_date => @updated_date, 
+									:size => @size, :seller => @seller, :rated => @rated, :requirements => @requirements, :bundleid => @bundleid)
+	end
+
+
+end

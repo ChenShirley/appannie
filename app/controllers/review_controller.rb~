@@ -11,7 +11,7 @@ class ReviewController < ApplicationController
 
 		# using inspector to get Messenger's latest 50 reviews (HTML)
 		# since reviews showed after login, using file instead
-		f = File.open("/home/shirley/AppAnnie/public/fitbit_review.xml")
+		f = File.open("/home/shirley/AppAnnie/public/review41.xml")
 		doc = Nokogiri::XML(f)
 		f.close
 

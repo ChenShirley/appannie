@@ -5,6 +5,7 @@ AppAnnie::Application.routes.draw do
 	resources :rating
 	resources :ranking
 	resources :search
+	resources :review
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

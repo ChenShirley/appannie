@@ -1,9 +1,9 @@
 
-100 random search
+200 reviews
 </br>
 <div>
-	<% @rating.each do |p| %>
-		<%= p.name %>
+	<% @feedback.each do |p| %>
+		<%= p.whole %>
     </br>
  		</br>
   <% end %>
