@@ -5,13 +5,13 @@ class CreateRealapps < ActiveRecord::Migration
       t.string :name
       t.text :icon
       t.string :store
-      t.integer :price
+      t.string :price
       t.text :description
       t.string :country
 
-      t.integer :average_current
+      t.float :average_current
       t.integer :total_current
-      t.integer :average_all
+      t.float :average_all
       t.integer :total_all
       t.integer :current1
       t.integer :current2

@@ -1,9 +1,30 @@
+<center>
+<%= form_tag '/realapp/scrape/', :method=>:post do %>
+  <%= label :user, :name, 'app file name：'%>	</br>
+  <%= text_field :user, :name, :autocomplete=>"off" %>
+	<%= submit_tag 'scrape data'%>
+<% end%>
+</center>
 
 200 reviews
 </br>
 <div>
 	<% @feedback.each do |p| %>
-		<%= p.whole %>
+		<%= p.name %>
+    </br>
+		<%= p.star%>
+    </br>
+		<%= p.title %>
+    </br>
+		<%= p.author %>
+    </br>
+		<%= p.content %>
+    </br>
+		<%= p.date %>
+    </br>
+		<%= p.country %>
+    </br>
+		<%= p.version %>
     </br>
  		</br>
   <% end %>

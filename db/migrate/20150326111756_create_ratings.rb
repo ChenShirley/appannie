@@ -1,22 +1,34 @@
 class CreateRatings < ActiveRecord::Migration
   def change
     create_table :ratings do |t|
+      t.text :link
       t.string :name
+      t.text :icon
+      t.string :store
+      t.string :price
+      t.text :description
       t.string :country
-      t.string :average_current
-      t.string :total_current
-      t.string :average_all
-      t.string :total_all
-      t.string :current1
-      t.string :current2
-      t.string :current3
-      t.string :current4
-      t.string :current5
-      t.string :all1
-      t.string :all2
-      t.string :all3
-      t.string :all4
-      t.string :all5
+
+      t.float :average_current
+      t.integer :total_current
+      t.float :average_all
+      t.integer :total_all
+      t.integer :current1
+      t.integer :current2
+      t.integer :current3
+      t.integer :current4
+      t.integer :current5
+      t.integer :all1
+      t.integer :all2
+      t.integer :all3
+      t.integer :all4
+      t.integer :all5
+
+			t.text :screenshot1
+			t.text :screenshot2
+			t.text :screenshot3
+			t.text :screenshot4
+			t.text :screenshot5
 
       t.references :ranking
 

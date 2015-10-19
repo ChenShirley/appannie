@@ -1,0 +1,192 @@
+<%= stylesheet_link_tag "semantic.min" %>
+<%= javascript_include_tag "semantic.min" %>
+<%= javascript_include_tag "jquery.min" %>
+
+<div class="ui raised very padded text container segment" style="margin:1em auto;">
+	<p class="subject_info">
+		<h2 class="ui header">App Store Experience</h2>
+		
+		<div class="ui ordered list">
+			<div class="ui form item">
+			  <div class="inline field">
+				Esearch ID：
+				<input type="text">
+			  </div>
+			</div>
+
+			<div class="ui form item">
+			  <div class="grouped fields">
+				Are you currently a smart mobile device user?
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="mobile_user"><label>Yes</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="mobile_user"><label>No</label>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="ui form item">
+			  <div class="grouped fields">
+				Which app store is on the smart mobile device you currently have?
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="appstore">
+					<label>Apple App Store</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="appstore">
+					<label>Google Play</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="appstore">
+					<label>
+						<div class="inline field">
+							Other, please specify
+							<input type="text">
+						</div>
+					</label>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="ui form item">
+			  <div class="grouped fields">
+				How often do you visit this app store?
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="visit">
+					<label>At least once a day</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="visit">
+					<label>At least once a week</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="visit">
+					<label>At least once a month</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="visit">
+					<label>At least once a year</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="visit">
+					<label>Almost never</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="visit">
+					<label>I have no idea</label>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
+			<div class="ui form item">
+			  <div class="grouped fields">
+				How much money do you spend on purchasing apps in a month? (Including in-app purchase.)
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="spend">
+					<label>$0</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="spend">
+					<label>$0 - $1</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="spend">
+					<label>$1 - $3</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="spend">
+					<label>$3 - $5</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="spend">
+					<label>more than $5</label>
+				  </div>
+				</div>
+			  </div>
+			</div>		
+
+			<div class="ui form item">
+			  <div class="grouped fields">
+				How familiar are you with health & fitness apps? </br>
+				(Do you have experience of using health & fitness apps?)
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="experience">
+					<label>Strongly unfamiliar</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="experience">
+					<label>Mostly unfamiliar</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="experience">
+					<label>Slightly unfamiliar</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="experience">
+					<label>Neutral</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="experience">
+					<label>Slightly familiar</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="experience">
+					<label>Mostly familiar</label>
+				  </div>
+				</div>
+				<div class="field">
+				  <div class="ui radio checkbox">
+					<input type="radio" name="experience">
+					<label>Strongly familiar</label>
+				  </div>
+				</div>
+				
+			  </div>
+			</div>
+		
+	</div>
+	</p>
+</div>

@@ -1,0 +1,127 @@
+<%= javascript_include_tag "jquery.min" %>
+<%= stylesheet_link_tag "semantic.min" %>
+<%= javascript_include_tag "semantic.min" %>
+<%= stylesheet_link_tag "cssplot.base" %>
+<%= stylesheet_link_tag "cssplot.full" %>
+
+<style>
+.rate {
+	height: 12px;
+	width: 100%;
+	background: #F0F0F0;
+	margin: 2px 0;
+}
+
+.fitted.tiny.star.icon {
+	margin: 2px 0;
+}
+
+.five_rate, .four_rate, .three_rate, .two_rate, .one_rate {
+	background: #8E8E8E;
+	height: 10px;
+	line-height: 10px;
+	color: black;
+}
+</style>
+
+<script>
+function detail() {
+    window.location.assign("detail.html")
+}
+function review() {
+    window.location.assign("review.html")
+}
+</script>
+
+
+<div class="ui two centered cards">
+
+	<% @app.each do |app| %>
+
+	<div class="ui card">
+		<div class="content">
+			<div style="text-align:center; padding:10px 0;">
+				<img src= <%= app.icon %> class="ui tiny rounded image">
+			</div>
+			<div class="header"><%= app.appname %></div>
+			
+			<div class="bar-chart stacked" style="width:60%; float:right;">
+				<ul class="plot-container group-by-number">
+					<li>
+						<i class="fitted tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<div class="rate">
+							<div class="five_rate" style=<%= "width:#{app.pct_star5}%;" %> ></div>
+						</div>
+					</li>
+					<li>
+						<i class="fitted empty tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<div class="rate">
+							<div class="four_rate" style=<%= "width:#{app.pct_star4}%;" %> ></div>
+						</div>
+					</li>
+					<li>
+						<i class="fitted empty tiny star icon"></i>
+						<i class="fitted empty tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<div class="rate">
+							<div class="three_rate" style=<%= "width:#{app.pct_star3}%;" %> ></div>
+						</div>
+					</li>
+					<li>
+						<i class="fitted empty tiny star icon"></i>
+						<i class="fitted empty tiny star icon"></i>
+						<i class="fitted empty tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<div class="rate">
+							<div class="two_rate" style=<%= "width:#{app.pct_star2}%;" %> ></div>
+						</div>
+					</li>
+					<li>
+						<i class="fitted empty tiny star icon"></i>
+						<i class="fitted empty tiny star icon"></i>
+						<i class="fitted empty tiny star icon"></i>
+						<i class="fitted empty tiny star icon"></i>
+						<i class="fitted tiny star icon"></i>
+						<div class="rate">
+							<div class="one_rate" style=<%= "width:#{app.pct_star1}%;" %> ></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="ui tiny statistic">
+				<div class="value">
+					<%= number_with_delimiter(app.totalrating, delimiter: ",") %>
+				</div>
+				<div class="label" style="text-transform:capitalize;">
+					Ratings
+				</div>
+			</div>
+		</div>
+		<div class="ui three bottom attached buttons">
+			<div class="ui button" onclick="detail()">
+				Details
+			</div>
+			<div class="ui button" onclick="review()">
+				Reviews
+			</div>
+			<div class="ui button">
+				$ 0.99
+			</div>
+		</div>
+	</div>
+	
+	<% end %>
+
+</div>

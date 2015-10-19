@@ -1,0 +1,1630 @@
+<div class="frame _app_frame">
+    <!-- app_frame sidebar -->
+    <div class="sidebar"><div class="sidebar-inner" style="position: relative; top: 0px; transition-duration: 0.14s; transition-timing-function: ease-out; transition-property: none;">
+        
+        <span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+            <span itemprop="price" content="Free"></span>
+            <span itemprop="seller" itemscope="" itemtype="http://schema.org/Organization">
+              <span itemprop="name" content="iOS Store"></span>
+            </span>
+        </span>
+        <span itemscope="" itemtype="http://schema.org/AggregateRating" itemprop="aggregateRating">
+            <span itemprop="ratingValue" content=""></span>
+            <span itemprop="ratingCount" content=""></span>
+        </span>
+        
+        <div class="app_name current">
+            <span class="icon">
+                <img itemprop="image" class="itc" src="https://static-s.aa-cdn.net/img/ios/462638897/5458fc27dfa27d9578d92d24388dd4f4" alt="Fitbit - iOS Store App Ranking and App Store Stats">
+            </span>
+            <span class="name" itemprop="name">Fitbit</span>
+        </div>
+        
+        
+<ul class="menu" data-category="analytics">
+    
+    <li class="current ">
+        
+        <a href="/apps/ios/app/462638897/" target="">
+            
+            
+            <i class="icon-info-sign fa fa-info-circle"></i><span>App Details</span>
+            
+            
+            
+        </a>
+    </li>
+    
+</ul>
+
+<ul class="menu" data-category="intelligence">
+    
+    <li class=" int">
+        
+            <i class="ui-icon prem-small"></i>
+        
+        <a href="/apps/ios/app/462638897/intelligence/" target="">
+            
+            
+            <i class="aaicon-store"></i><span>Store<br>Intelligence</span>
+            
+            
+            
+        </a>
+    </li>
+    
+    <li class=" int">
+        
+        <a href="/apps/ios/app/462638897/usage/" target="">
+            
+            
+            <i class="aaicon-usage"></i><span>Usage<br>Intelligence</span>
+            
+            
+            
+        </a>
+    </li>
+    
+    <li class=" int">
+        
+        <a href="/apps/ios/app/462638897/audience/" target="">
+            
+            
+            <i class="icon-male fa fa-male"></i><span>Audience<br>Intelligence</span>
+            
+            
+            
+        </a>
+    </li>
+    
+</ul>
+
+<ul class="menu" data-category="rank">
+    
+    <li class=" ">
+        
+        <a href="/apps/ios/app/462638897/ssp/" target="">
+            
+            
+            <i class="aaicon-sspro_icon"></i><span>Store Stats Pro</span>
+            
+            
+            
+        </a>
+    </li>
+    
+    <li class=" ">
+        
+        <a href="/apps/ios/app/462638897/app-ranking/" target="">
+            
+            
+            <i class="icon-calendar fa fa-calendar"></i><span>Daily Ranks</span>
+            
+            
+            
+        </a>
+    </li>
+    
+    <li class=" ">
+        
+        <a href="/apps/ios/app/462638897/rank-history/" target="">
+            
+            
+            <i class="icon-arrow-up fa fa-arrow-up"></i><span>Rank History</span>
+            
+            
+            
+        </a>
+    </li>
+    
+    <li class=" ">
+        
+        <a href="/apps/ios/app/462638897/keywords/" target="">
+            
+            
+            <i class="aaicon-keywords"></i><span>Keywords / ASO</span>
+            
+            
+            
+        </a>
+    </li>
+    
+    <li class=" ">
+        
+        <a href="/apps/ios/app/462638897/features/" target="">
+            
+            
+            <i class="aaicon-featured"></i><span>Featured</span>
+            
+            
+            
+        </a>
+    </li>
+    
+    <li class=" ">
+        
+        <a href="/apps/ios/app/462638897/ratings/" target="">
+            
+            
+            <i class="icon-star-half"></i><i class="icon-star-empty"></i><i class="fa fa-star-half-o"></i><span>Ratings</span>
+            
+            
+            
+        </a>
+    </li>
+    
+    <li class=" ">
+        
+        <a href="/apps/ios/app/462638897/reviews/" target="">
+            
+            
+            <i class="icon-comments fa fa-comments"></i><span>Reviews</span>
+            
+            
+            
+        </a>
+    </li>
+    
+</ul>
+
+
+
+        <img class="sidebar-logo" src="https://static-s.aa-cdn.net/media/pictures/logo/sidebar_stencil.v-6b37ae6b.png" alt="AppAnnie.com" width="141" height="97">
+    </div></div>
+    <!-- app_frame sidebar end -->
+
+    <!-- app_frame content  -->
+    <div class="content content-app app-details">
+        <div class=" aa-popup-container">
+            
+
+            
+
+<div class="app-info-top aa-info-columns aa-info-columns-app">
+    
+    <div class="name">
+        <h2 class="asset-name" js-expandable="">Fitbit</h2><label class="asset-type">[App]</label>
+        
+
+
+    </div>
+        <div class="row-control-group clearfix summary-container">
+    <div class="left-align-controls summary">
+    
+        
+
+<div class="summary-item">
+    <label>Store</label>
+    <div class="value">
+
+    
+
+
+    
+    
+        <a class="summary-item-text" title="iOS Store" href="https://itunes.apple.com/app/id462638897" target="_blank">iOS Store</a>
+        <i class="icon-external-link fa fa-external-link"></i>
+        
+    
+    
+
+
+    
+
+
+    
+
+    </div>
+</div>
+
+    
+        
+
+<div class="summary-item">
+    <label>Price</label>
+    <div class="value">
+
+    
+    Free
+    
+
+
+    
+
+
+    
+
+
+    
+
+    </div>
+</div>
+
+    
+        
+
+<div class="summary-item">
+    <label>Compatibility</label>
+    <div class="value">
+
+    
+    Universal
+    
+
+
+    
+
+
+    
+
+
+    
+
+    </div>
+</div>
+
+    
+        
+
+<div class="summary-item">
+    <label>Publisher</label>
+    <div class="value">
+
+    
+
+
+    
+    
+        <a class="summary-item-text" title="Fitbit, Inc." href="/apps/ios/publisher/fitbit-inc.">Fitbit, Inc.</a>
+        
+        
+    
+    
+
+
+    
+
+
+    
+
+    </div>
+</div>
+
+    
+        
+
+<div class="summary-item">
+    <label data-helptip="A consistent name for grouping an app's different versions within and across stores. The data is maintained by and is property of App Annie.">Unified App</label>
+    <div class="value">
+
+    
+
+
+    
+
+
+    
+
+
+    
+        
+        <a class="summary-item-link" href="/apps/all-stores/app/fitbit/">
+            <span class="summary-item-text" title="Fitbit">Fitbit</span><span> (2 apps)</span>
+        </a>
+        
+        <div class="btn btn-mini click-to-show" data-type="app"><i class="icon-caret-down fa fa-caret-down"></i></div>
+        
+        
+    
+
+    </div>
+</div>
+
+    
+        
+
+<div class="summary-item">
+    <label data-helptip="A collection of apps sharing the same intellectual property, similar to movie franchise. The data is maintained by and is property of App Annie.">App Franchise</label>
+    <div class="value">
+
+    
+
+
+    
+
+
+    
+
+
+    
+        
+        <label data-helptip="Data is not yet available">N/A</label>
+        
+    
+
+    </div>
+</div>
+
+    
+    </div>
+
+    <div class="right-align-controls">
+    
+    </div>
+</div>
+
+    
+    
+</div>
+
+            <div class="main-app-content aa-popup-container">
+            
+            <div class="ss-report-note">
+                
+                The data was collected from the App Store on Sep 21, 2015. 
+                
+                Please note App Annie is not responsible for the content provided by the App Store.</div>
+            
+
+            
+<div>
+  
+    
+    <div class="x-clear app-screenshots">
+      
+        
+          
+<div class="None">
+    
+    <div id="screenshots" class="portrait">
+        
+        
+        
+        
+        <div class="img-holder">
+            <a href="https://static-s.aa-cdn.net/img/ios/462638897/6583e61232f331fa30117d2cab569a40"><img src="https://static-s.aa-cdn.net/img/ios/462638897/6583e61232f331fa30117d2cab569a40" alt=" - iPhone Mobile Analytics and App Store Data"></a>
+            <span></span>
+        </div>
+        
+        
+        
+        
+        
+        <div class="img-holder">
+            <a href="https://static-s.aa-cdn.net/img/ios/462638897/aa89d53ba0d505fdc038c48f2cfaa495"><img src="https://static-s.aa-cdn.net/img/ios/462638897/aa89d53ba0d505fdc038c48f2cfaa495" alt=" - iPhone Mobile Analytics and App Store Data"></a>
+            <span></span>
+        </div>
+        
+        
+        
+        
+        
+        <div class="img-holder">
+            <a href="https://static-s.aa-cdn.net/img/ios/462638897/6ba7ebe0aa26ce3ba6ef5cc0831fc607"><img src="https://static-s.aa-cdn.net/img/ios/462638897/6ba7ebe0aa26ce3ba6ef5cc0831fc607" alt=" - iPhone Mobile Analytics and App Store Data"></a>
+            <span></span>
+        </div>
+        
+        
+        
+        
+        
+        <div class="img-holder">
+            <a href="https://static-s.aa-cdn.net/img/ios/462638897/9bb1aba70bc9660a4d628f5b13f79db9"><img src="https://static-s.aa-cdn.net/img/ios/462638897/9bb1aba70bc9660a4d628f5b13f79db9" alt=" - iPhone Mobile Analytics and App Store Data"></a>
+            <span></span>
+        </div>
+        
+        
+        
+        
+        
+        <div class="img-holder">
+            <a href="https://static-s.aa-cdn.net/img/ios/462638897/0ab0e4ba1e5b3526fe9def4fbb93d79f"><img src="https://static-s.aa-cdn.net/img/ios/462638897/0ab0e4ba1e5b3526fe9def4fbb93d79f" alt=" - iPhone Mobile Analytics and App Store Data"></a>
+            <span></span>
+        </div>
+        
+        
+    </div>
+</div>
+
+        
+      
+    </div>
+    
+
+    <!-- ******************* contents ******************* -->
+    <div id="app_content">
+      
+      
+<div class="app_content_section">
+<h3>Description</h3>
+<div class="desc" itemprop="description">
+<p></p><p>Live a healthier, more active life with Fitbit, the top app for tracking all-day activity, workouts and
+health.</p>
+
+<p>Use this app on its own to track basic activity and runs, or connect with Fitbit’s line of activity trackers and the
+Aria Smart Scale to get a complete picture of your daily stats—including steps, distance, calories burned, sleep,
+weight, and more.</p>
+
+<p>GET ACTIVE. TRAIN SMARTER. EAT BETTER. STAY MOTIVATED. </p>
+
+<p>TRACK ALL-DAY ACTIVITY: Track your daily steps and distance right on your smartphone with MobileTrack for iPhone 5s,
+6, and 6 Plus. MobileTrack accurately tracks your basic activity when you carry your phone. For more in-depth, all day
+tracking of stats like calories burned, active minutes, and sleep, pair the app with a Fitbit tracker.</p>
+
+<p>ELEVATE YOUR TRAINING: Track stats and routes for runs, hikes, and walks with MobileRun. See your pace, splits, time,
+distance and route maps in real time. Record workouts and use the monthly exercise calendar to follow your training
+program.  (Continued use of GPS running in the background can dramatically decrease battery life.)</p>
+
+<p>LOG FOOD: Easily log calories with a credible food database. Use our barcode scanner or use the quick calorie
+estimator for customized entries.</p>
+
+<p>ACHIEVE YOUR GOALS: Set goals, enter your weight, record your sleep and start a food plan. Then view your progress
+and track your trends with easy-to-read charts and graphs. </p>
+
+<p>COMPETE WITH FRIENDS: Enlist friends and family to help you reach your goals by sharing stats, joining fitness
+challenges, direct-messaging each other, and competing on leaderboards.</p>
+
+<p>SYNC WIRELESSLY: Fitbit trackers continuously sync your stats with your iPhone 4S and later to give you real-time
+access to your progress without plugging in.</p>
+
+<p>OUTSMART YOUR WEIGHT: Connect wirelessly to the Aria Wi-Fi Smart Scale to seamlessly track your weight, activity and
+more.</p>
+
+<p>Learn more about Fitbit products and services at&nbsp;www.fitbit.com.</p><p></p>
+</div>
+</div>
+
+      
+      
+
+<div class="app_content_section app-version-block shorten-enable">
+  <h3>What's New</h3>
+  <div class="desc" style="height: 681px;">
+  
+  <h5>Version 2.14 (Sep 21, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>Bug fix for not being able to scroll the leaderboard on iOS 9</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.13.2 (Sep 03, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>- Bug fixes</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.13.1 (Aug 28, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>- Bug fixes</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.13 (Aug 24, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>Battery Charging<br>* Receive a notification when your Charge, Charge HR, or Surge is fully charged</p>
+
+<p>Friend Finder<br>* Find friends more easily with the updated friend finder tab view<br>* Invite friends to join
+Fitbit when you create a Challenge.  What better way to start a Fitbit friendship?<br>* View who you’ve invited to
+Challenges with the new invitation bar</p>
+
+<p>Exercise Sharing<br>* Capture epic moments and inspire friends with Exercise Photo Sharing<br>* Take a photo or
+choose one from your library and share it with your favorite social network<br>* Each photo is overlaid with your
+stats from that workout<br>* Scale and crop your photo to make it look just right</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.12 (Jul 30, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>Weight<br>Redesigned weight screen with better charts, summary of goal progress, and history of weight logs&nbsp;<br>Added tools to support&nbsp;different kinds of weight goals: &nbsp;weight loss, weight gain, and weight maintenance<br>Added&nbsp;support&nbsp;for&nbsp;setting a body fat % goal&nbsp;<br>Added charts showing body fat % over time</p>
+
+<p>Water<br>Redesigned water screen with a new chart and daily history<br>Redesigned the water logger and made it
+accessible from the + button on the dashboard</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.11.1 (Jul 15, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>Bug fixes</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.11 (Jul 08, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>Sleep Tracking<br>* NEW added the ability to set a nightly sleep goal<br>* NEW redesigned sleep graphs to help
+you track your progress<br>* NEW redesigned sleep history to help you compare nights and naps</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.10 (Jun 22, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>Improvements</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.9.1 (May 19, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>Bug fixes</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.9 (May 08, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>Challenges<br>* Celebrate your win in a Challenge with a new trophy and graph<br>* Push yourself further with
+the new Personal Record and Goal Streak awards in Challenges<br>* Easily start a Challenge again with the same friends
+using Rematch</p>
+
+<p>Quick access to Logging<br>* Hit the + button at the top of the dashboard for quick access to tracking runs and
+walks, logging food, weight, and sleep</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.8.1 (Apr 23, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>Bug fixes</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.8 (Apr 08, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>Friend Finder via Facebook<br>Find friends on Fitbit by connecting to Facebook from the Friends tab</p>
+
+<p>Badges<br>Share badges with friends outside of Fitbit</p>
+
+<p>Food Logging<br>Easier logging of multiple items that were previously eaten together</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.7.1 (Apr 03, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>Bug fixes</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.7 (Mar 18, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>Fitbit Badges<br>View your badge collection on your profile from the Account tab<br>View friends' top activity
+badges on their profiles</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.6.3 (Feb 04, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>- Redesigned graphs and history screens for Steps, Distance, Calories Burned, Floors, and Active Minutes<br>-
+Added access to tracker 101 Quick Start Guides from the device settings screens<br>- Food Plan calories left for the
+day and realtime in-the-zone gauge are now consistent with the website<br>- Bug fixes</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.6.2 (Jan 09, 2015)</h5>
+  <div class="app-version-note">
+  <p></p><p>- Bug fixes</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.6.1 (Dec 12, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>- Add friends by email address<br>- Bug fixes</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.6 (Dec 02, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>Native support for iPhone 6 and 6 Plus displays</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.5.2 (Nov 14, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>Fixed the crash on launch happening to some people in the last update -- please open the app one more time after
+it crashes!</p>
+
+<p>P.S.  We are indeed working on support for the iPhone 6 and 6 Plus displays. Stay tuned!</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.5.1 (Nov 04, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>** This update is crashing for some people.  We're working on another update with a real fix.  In the meantime,
+deleting and reinstalling the app will get you back up and running.  We're really sorry for letting this bug slip
+through.</p>
+
+<p>- Fixed a bug causing some incorrect calorie values on the dashboard and in the Food section<br>- Fixed a crash
+affecting a small number of users on viewing the leaderboard<br>- Fixed Active Minutes for Charge, Charge HR, and
+Surge users</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.5 (Oct 27, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>- Fitbit Challenges: &nbsp;Say hello to a new way to stay motivated! Start a challenge with friends and family to see
+who can get the most steps in a day, workweek or weekend.<br>- Support for new Fitbit trackers: &nbsp;Charge, Charge HR,
+and Surge<br>- Exercise improvements: &nbsp;better calorie burn tracking and analysis<br>- Food logging: &nbsp;when a scanned
+barcode isn't found, request the item be added to the database (US only)</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.4 (Oct 04, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>Stay motivated with Fitbit Challenges (BETA)<br>Compete with friends and family in the Daily Showdown, Workweek
+Hustle and Weekend Warrior</p>
+
+<p>Fixed support for MobileTrack on iPhone 6 and 6 Plus</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.3.4 (Sep 19, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>- Redesigned and improved the steps to set up a Fitbit tracker<br>- Redesigned screens for steps, distance,
+floors, active minutes, and calories burned</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.3.3 (Aug 15, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>Redesigned settings for the Aria smart scale</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.3.2 (Jul 16, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>2.3.2<br>- Improved the barcode scanner to give better feedback when there’s trouble scanning or finding
+items<br>- Fixed a bug where the barcode scan button could disappear when using the the US database  <br>- Added
+Evening Snack and added back Anytime meal options<br>- Added back ability to use decimal places when creating custom
+foods<br>- Improved responsiveness on the Food screen<br>- Fix for creating custom foods when using an international
+food database<br>- Improved performance of starting up the fullscreen interactive graphs</p>
+
+<p>2.3 <br>Track Run Stats in Real Time <br>New MobileRun lets you use GPS to track your pace and routes during
+runs, walks, and hikes. </p>
+
+<p>Track Food Faster <br>Log food quickly with our new barcode scanner, calorie estimator, and expanded food database
+of more than 350,000 foods (US food database only). </p>
+
+<p>Track Exercise Easier <br>Record your workouts in seconds and see a monthly exercise calendar to track your goals
+and progress. </p>
+
+<p>Plus: <br>- Add a photo to your Fitbit profile <br>- MobileTrack now syncs even when the app is in the
+background</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.3.1 (Jun 29, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>2.3.1<br>Bug fixes</p>
+
+<p>2.3<br>Track Run Stats in Real Time <br>New MobileRun lets you use GPS to track your pace and routes during runs,
+walks, and hikes. </p>
+
+<p>Track Food Faster <br>Log food quickly with our new barcode scanner, calorie estimator, and expanded food database
+of more than 350,000 foods (US food database only). </p>
+
+<p>Track Exercise Easier <br>Record your workouts in seconds and see a monthly exercise calendar to track your goals
+and progress. </p>
+
+<p>Plus: <br>- Add a photo to your Fitbit profile <br>- MobileTrack now syncs even when the app is in the
+background</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.3 (Jun 25, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>Track Run Stats in Real Time<br>New MobileRun lets you use GPS to track your pace and routes during runs, walks,
+and hikes.</p>
+
+<p>Track Food Faster<br>Log food quickly with our new barcode scanner, calorie estimator, and expanded food database
+of more than 350,000 foods (US food database only).  </p>
+
+<p>Track Exercise Easier<br>Record your workouts in seconds and see a monthly exercise calendar to track your goals
+and progress.</p>
+
+<p>Plus:<br>- Add a photo to your Fitbit profile<br>- MobileTrack now syncs even when the app is in the
+background</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.2.3 (Jun 07, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>Bug fixes</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.2.2 (May 27, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>Italian and Chinese translations</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.2.1 (Apr 11, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>Fixed a bug preventing some users in Japan and Korea from setting their account’s gender<br>Fixed a rare syncing
+bug <br>Improved communication with Fitbit.com<br>Added support for gathering more troubleshooting info</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.2 (Mar 21, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>- Bluetooth bug fixes<br>- Added community forum links to the Help screen<br>- Silent alarms can now be set
+from the device settings screen (just tap on your tracker at the top of the dashboard)</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.1.2 (Jan 24, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>- Localization updates</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.1.1 (Jan 17, 2014)</h5>
+  <div class="app-version-note">
+  <p></p><p>Fixed a bug where some MobileTrack users saw negative steps.<br>Fixed silent alarms screen. If you've set up
+alarms, you'll see them. <br>Fixed a bug where the app tried to set up syncing even when the tracker or iOS device
+didn't support Bluetooth Low Energy.<br>Fixed a bug that prevented a small number of users from logging in.<br>Fixed
+a bug where the service status message sometimes incorrectly showed on the dashboard.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.1 (Dec 30, 2013)</h5>
+  <div class="app-version-note">
+  <p></p><p>The Fitbit app now features MobileTrack which offers basic Fitbit activity tracking directly using your iPhone
+5s.<br>Redesigned Silent Alarms settings. Set, switch, edit, and remove alarms faster than ever.<br>Set your own
+custom water goal.<br>Redesigned profile editor.<br>Redesigned tracker settings.<br>Redesigned sign-up and
+sign-in.<br>Tap on people in Friend Finder to see their profile.<br>Swipe on friends on your leaderboard to Cheer,
+Taunt, or Message.<br>Tap on tabs to auto-scroll to the top.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.0.2 (Dec 12, 2013)</h5>
+  <div class="app-version-note">
+  <p></p><p>Bug fixes</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.0.1 (Oct 14, 2013)</h5>
+  <div class="app-version-note">
+  <p></p><p>Bug fixes</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 2.0 (Sep 20, 2013)</h5>
+  <div class="app-version-note">
+  <p></p><p>This 2.0 app update has some big changes and a new look for iOS7 !  </p>
+
+<p> 1) NEW NAVIGATION: tap directly on the Dashboard to see the details of your activity, sleep, weight, food, and water
+consumption. Customize the Dashboard by tapping the Edit button at the top of your screen.</p>
+
+<p> 2) BETTER SYNCING on iOS 7 in the background, even when the app isn't open. Tap the picture of your tracker on the
+Dashboard to change sync settings.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.8 (Aug 30, 2013)</h5>
+  <div class="app-version-note">
+  <p></p><p>- Messages:  cheer, taunt, and message your Fitbit friends<br>- User profiles:  tap on friends to see profiles
+and send messages, and see who they're friends with<br>- Make new Fitbit friends:  invite friends of your friends
+directly from their user profiles<br>- Sleep stats:  added awake and restless stats on the Sleep tab<br>- Graphs: 
+rotating your device to landscape to see fullscreen graphs is much faster<br>- System Status:  dashboard alerts now
+inform you if the Fitbit.com API is ever down or unreachable</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.7.1 (Jul 16, 2013)</h5>
+  <div class="app-version-note">
+  <p></p><p>1.7.1<br>-Fixed crashes when logging activities and food<br>-Fixed landscape weight graph y-axis scaling and
+value rounding</p>
+
+<p>1.7<br>-Daily stats now incorporate color to indicate progress toward goals <br>-Very Active Minutes now shown on
+the dashboard <br>-Added graphs for Distance and Very Active Minutes on the activity tab <br>-Landscape and portrait
+graphs now include a 1d time view to show activity over the course of each day <br>-Flex users can now choose which
+daily goal progress the tracker displays <br>-Improvements to the signup and setup process</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.7 (Jul 08, 2013)</h5>
+  <div class="app-version-note">
+  <p></p><p>** We're working on a fix for the crash when logging activities.  In the meantime, the workaround is to delete and
+reinstall the app.  We're really sorry this bug slipped through!</p>
+
+<p>-Daily stats now incorporate color to indicate progress toward goals<br>-Very Active Minutes now shown on the
+dashboard<br>-Added graphs for Distance and Very Active Minutes on the activity tab<br>-Landscape and portrait
+graphs now include a 1d time view to show activity over the course of each day <br>-Flex users can now choose which
+daily goal progress the tracker displays<br>-Improvements to the signup and setup process</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.6.2 (May 08, 2013)</h5>
+  <div class="app-version-note">
+  <p></p><p>- bug fixes</p>
+
+<p>** IMPORTANT NOTE ABOUT SYNC on iOS 6.1.x ** <br>If you have any trouble syncing or linking your tracker, please
+REBOOT your phone and try again </p>
+
+<p>--- <br>- Distance displayed with daily goals <br>- More detailed data on the Sleep tab <br>- Find new friends
+and respond to invitations on the Friends tab <br>- Food databases for France, Germany, and Spain <br>- Settings for
+timezone, food database, country, and units <br>- Our app went on a diet and is now over 50% smaller! <br>- Many
+more improvements under the hood</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.6.1 (Apr 25, 2013)</h5>
+  <div class="app-version-note">
+  <p></p><p>**We are working to resolve the issues being reported in this version. &nbsp;In the meantime, here are some tips:</p>
+
+<p>- SYNC: for any trouble with tracker sync, please 1) delete the app, 2) restart your phone, 3) re-install the app</p>
+
+<p>- LOGIN: if you have any trouble with login, please email iphone@fitbit.com with the word "login" in the subject</p>
+
+<p>---<br>- Distance displayed with daily goals <br>- More detailed data on the Sleep tab <br>- Find new friends
+and respond to invitations on the Friends tab <br>- Food databases for France, Germany, and Spain <br>- Settings for
+timezone, food database, country, and units <br>- Our app went on a diet and is now over 50% smaller! <br>- Many
+more improvements under the hood</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.6 (Apr 24, 2013)</h5>
+  <div class="app-version-note">
+  <p></p><p>**IF YOU EXPERIENCE A CRASH AFTER UPDATING, DELETE AND REINSTALL THE APP**</p>
+
+<p>- Distance displayed with daily goals<br>- More detailed data on the Sleep tab<br>- Find new friends and respond
+to invitations on the Friends tab<br>- Food databases for France, Germany, and Spain<br>- Settings for timezone,
+food database, country, and units<br>- Our app went on a diet and is now over 50% smaller!<br>- Many more
+improvements under the hood</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.5.5 (Mar 05, 2013)</h5>
+  <div class="app-version-note">
+  <p></p><p>-Improved translations for Japanese users</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.5.4 (Jan 11, 2013)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Adds Japanese as a supported language<br>* Fixes a bug preventing some users from viewing the previous day's
+stats</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.5.3 (Dec 17, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Fixed crash on Sleep Graph<br>* Improved Weight Graph appearance<br>* Various bug fixes</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.5.2 (Dec 06, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Full screen graphs now automatically scale to your data<br>* Fixed bug affecting launch on iPad in landscape
+orientation<br>* Fixed several bugs affecting graphs<br>* Fixed various crashing bugs<br>* Improved language
+translations</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.5.1 (Oct 26, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Adds support for displaying and logging Sleep Stats and setting Silent Alarms.<br>* Adds support for iPhone
+5.<br>* Adds support for Setting Up and Syncing the Fitbit One.<br>* Adds support for step goal and lifetime badge
+achievement push notifications.<br>* Adds support for updating firmware on your Fitbit One or Zip.<br>* Fixes issue
+with setting times when logging Activities.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.5 (Oct 17, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Adds support for Setting Up and Syncing the Fitbit One.<br>* Adds support for displaying and logging Sleep
+Stats.<br>* Adds support for step goal and lifetime badge achievement push notifications.<br>* Fixes issue with
+setting times when logging Activities.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.4.3 (Oct 05, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Fixes issue where floors count was often incorrectly displayed as zero.<br>* Fixes issue where logged weight
+values could be incorrect.<br>* Fixes issue where older custom foods did not appear in the app.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.4.2 (Sep 18, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p># Fixed in 1.4.2 #<br>* iPhone 4S users with Bluetooth turned off will no longer see a popup when leaving the
+app.<br>* Users who experienced a crash on launch after upgrade or logging will now be able to launch the app and log
+items without crashing.</p>
+
+<p># New in 1.4 #<br>* Support for Fitbit Zip. Set up and sync on the go, for iOS devices with Bluetooth Smart (iPhone
+4S, iPhone 5, iPod Touch 5th gen, or iPad 3rd gen).&nbsp;<br>* Activity graphs. See your steps, distance and floors
+progress - for the past week, month and year!&nbsp;<br>* Friends. Find out who's the most and least active of your friends
+in the new leaderboard.&nbsp;<br>* Customize the dashboard and tabs. Choose which content you want to show on the main
+screen, and which tabs you want quick access to.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.4.1 (Sep 17, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Support for Fitbit Zip. Set up and sync on the go, for iOS devices with Bluetooth Smart (iPhone 4S, iPhone 5,
+iPod Touch 5th gen, or iPad 3rd gen).<br>* Activity graphs. See your steps, distance and floors progress - for the
+past week, month and year!<br>* Friends. Find out who's the most and least active of your friends in the new
+leaderboard.<br>* Customize the dashboard and tabs. Choose which content you want to show on the main screen, and
+which tabs you want quick access to.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.3 (Aug 09, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Improved weight graphs! Panning and more.<br>* Customizable Dashboard order.<br>* Resolution for the 'sync
+error' problem experienced by some users.<br>* Other bug fixes.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.2.3 (May 30, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Resolve issue where data update would never complete for some users.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.2.2 (May 14, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Adds support for French, German, and Spanish languages</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.2.1 (Apr 24, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p># New Features in 1.2 #<br>* Track your weight and body fat with colorful graphs. <br>* Manage your Aria scale
+settings.</p>
+
+<p># Fixes in 1.2.1 #<br>* Resolves problem where items manually logged in the app would synchronize to the website
+using GMT rather than your local timezone.<br></p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.2 (Apr 23, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Track your weight and body fat with colorful graphs.<br>* Manage your Aria scale settings.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.1.1 (Apr 13, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Updates Food Plan<br>* Fixes problem where some foods would only display as "Loading food". <br>* Fixes
+problem where initial sync for some users would fail with an error.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.1 (Feb 16, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p>Adds:<br>* Ability to edit custom foods.<br>* Twitter integration; you can choose to Tweet goal progress and
+activities you complete.<br>* 'Contact Support' mechanism to help resolve account issues.</p>
+
+<p>Fixes:<br>* Dashboard data could sometimes be out of date.<br>* Some activities would only display as "Loading
+activity".<br>* Calorie calculations were sometimes incorrect.<br>* Crash when user authentication fails.<br>*
+Crash when searching for food brands on some devices.<br>* Many problems that could result in sync failures.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.0.3 (Jan 02, 2012)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Updated terms, conditions, and privacy policy for the UK</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.0.2 (Nov 29, 2011)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Adds support for Fitbit Ultra—number of floors climbed is now displayed on the dashboard.<br>* Adds support
+for displaying data with non-English units. (Data is displayed using the units it was logged with).<br>* Resolves
+issue some iPhone 3G users had where activities could not be logged.<br>* Resolves issue where logged meals would not
+immediately sync up to the web site.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.0.1 (Oct 31, 2011)</h5>
+  <div class="app-version-note">
+  <p></p><p>* Increases robustness and reliability of syncing with Fitbit.com</p>
+
+<p>* Resolves issues with initial launch and food logging seen by some iPhone 3G users.</p>
+
+<p>* Allows login with email addresses typed with upper case characters.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1 (Oct 17, 2011)</h5>
+  <div class="app-version-note">
+  <p></p><p>Improved reliability. Tested for iOS 5.</p><p></p>
+  <div class="show-all-box"><b><i class="fa fa-chevron-down"></i> Expand notes</b></div>
+  </div>
+  
+  <h5>Version 1.0 (Sep 29, 2011)</h5>
+  
+  
+  </div><div class="read_more"><a><i class="fa fa-chevron-down"></i> <span>Read more</span></a></div>
+</div>
+
+      
+    </div>
+
+    <!-- ******************* sidebar ******************* -->
+    <div id="app_sidebar">
+      
+      <div class="app-box chart-lock-container">
+    
+    
+        <div class="app-box-content">
+<h3>Revenue Estimate</h3>
+<div class="chart-lock">
+    <div class="chart-lock-image">
+        <img src="/media/pictures/ui/chart_lock.png">
+    </div>
+    <div class="lock-info">
+        Get downloads and revenue estimates for this app with a premium subscription to Intelligence.
+    </div>
+    <div class="request-demo">
+        <a href="/intelligence/" target="_blank" ga-tracking="" data-ga-category="MKT-INT Demo Promotion" data-ga-action="Click" data-ga-label="App_Details_Estimate_Box">Learn More</a>
+    </div>
+</div></div>
+    
+</div>
+      
+      <div class="app-box-links links">
+    
+    
+        <div class="app-box-content"><ul>
+<li><a href="https://www.fitbit.com/iphone" target="_blank">Fitbit, Inc. Web Site <i class="fa fa-external-link"></i> </a></li><li><a href="http://help.fitbit.com/" target="_blank">Fitbit, Inc. Support <i class="fa fa-external-link"></i> </a></li>
+</ul>
+</div>
+    
+</div>
+      
+      <div class="app-box-links summary">
+    
+        <h3>Featured <span class="more-info">(Sep 22, 2015)</span></h3>
+    
+    
+        <div class="app-box-content">
+
+<div class="app_slide_container app_slide_container-show-all">
+
+<div class="app_slide current one" id="app_feature_iphone-market_content">
+<div class="app_slide_header" id="app_feature_iphone-market">
+<i class="icon-caret-down"></i><i class="icon-caret-right"></i>iPhone Market
+</div>
+<div class="app_slide_content"><ul>
+
+<li><span class="ui-icon featured_gold"></span>
+Not featured
+
+on the iTunes Home Page
+</li>
+
+<li><span class="ui-icon featured_silver"></span>
+<strong><a title="Click for a breakdown of places" href="/apps/ios/app/fitbit/features/#device=iphone
+">49 times</a></strong>
+
+in iTunes
+</li>
+
+</ul></div>
+</div>
+
+</div>
+</div>
+    
+</div>
+      
+      <div class="app-box app-info-version">
+    
+        <h3>Versions</h3>
+    
+    
+        <div class="app-box-content">
+
+<table id="app_versions" cellspacing="0" cellpadding="0" class="fold-on">
+<colgroup><col width="22"><col width="70"><col width="95"><col width="100%"></colgroup>
+
+<tbody>
+<tr class=" first">
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.14">2.14</span></td><td class="date">Sep 21, 2015</td><td class="note">Current release</td>
+</tr>
+
+<tr class="">
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.13.2">2.13.2</span></td><td class="date">Sep 03, 2015</td><td class="note"></td>
+</tr>
+
+<tr class="">
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.13.1">2.13.1</span></td><td class="date">Aug 28, 2015</td><td class="note"></td>
+</tr>
+</tbody>
+<tbody class="fold-block">
+<tr class="fold-open"><td colspan="4" class="dot"><b>...</b></td></tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.13">2.13</span></td><td class="date">Aug 24, 2015</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.12">2.12</span></td><td class="date">Jul 30, 2015</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.11.1">2.11.1</span></td><td class="date">Jul 15, 2015</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.11">2.11</span></td><td class="date">Jul 08, 2015</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.10">2.10</span></td><td class="date">Jun 22, 2015</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.9.1">2.9.1</span></td><td class="date">May 19, 2015</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.9">2.9</span></td><td class="date">May 08, 2015</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.8.1">2.8.1</span></td><td class="date">Apr 23, 2015</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.8">2.8</span></td><td class="date">Apr 08, 2015</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.7.1">2.7.1</span></td><td class="date">Apr 03, 2015</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.7">2.7</span></td><td class="date">Mar 18, 2015</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.6.3">2.6.3</span></td><td class="date">Feb 04, 2015</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.6.2">2.6.2</span></td><td class="date">Jan 09, 2015</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.6.1">2.6.1</span></td><td class="date">Dec 12, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.6">2.6</span></td><td class="date">Dec 02, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.5.2">2.5.2</span></td><td class="date">Nov 14, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.5.1">2.5.1</span></td><td class="date">Nov 04, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.5">2.5</span></td><td class="date">Oct 27, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.4">2.4</span></td><td class="date">Oct 04, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.3.4">2.3.4</span></td><td class="date">Sep 19, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.3.3">2.3.3</span></td><td class="date">Aug 15, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.3.2">2.3.2</span></td><td class="date">Jul 16, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.3.1">2.3.1</span></td><td class="date">Jun 29, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.3">2.3</span></td><td class="date">Jun 25, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.2.3">2.2.3</span></td><td class="date">Jun 07, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.2.2">2.2.2</span></td><td class="date">May 27, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.2.1">2.2.1</span></td><td class="date">Apr 11, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.2">2.2</span></td><td class="date">Mar 21, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.1.2">2.1.2</span></td><td class="date">Jan 24, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.1.1">2.1.1</span></td><td class="date">Jan 17, 2014</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.1">2.1</span></td><td class="date">Dec 30, 2013</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.0.2">2.0.2</span></td><td class="date">Dec 12, 2013</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.0.1">2.0.1</span></td><td class="date">Oct 14, 2013</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="2.0">2.0</span></td><td class="date">Sep 20, 2013</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.8">1.8</span></td><td class="date">Aug 30, 2013</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.7.1">1.7.1</span></td><td class="date">Jul 16, 2013</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.7">1.7</span></td><td class="date">Jul 08, 2013</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.6.2">1.6.2</span></td><td class="date">May 08, 2013</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.6.1">1.6.1</span></td><td class="date">Apr 25, 2013</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.6">1.6</span></td><td class="date">Apr 24, 2013</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.5.5">1.5.5</span></td><td class="date">Mar 05, 2013</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.5.4">1.5.4</span></td><td class="date">Jan 11, 2013</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.5.3">1.5.3</span></td><td class="date">Dec 17, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.5.2">1.5.2</span></td><td class="date">Dec 06, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.5.1">1.5.1</span></td><td class="date">Oct 26, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.5">1.5</span></td><td class="date">Oct 17, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.4.3">1.4.3</span></td><td class="date">Oct 05, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.4.2">1.4.2</span></td><td class="date">Sep 18, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.4.1">1.4.1</span></td><td class="date">Sep 17, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.3">1.3</span></td><td class="date">Aug 09, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.2.3">1.2.3</span></td><td class="date">May 30, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.2.2">1.2.2</span></td><td class="date">May 14, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.2.1">1.2.1</span></td><td class="date">Apr 24, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.2">1.2</span></td><td class="date">Apr 23, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.1.1">1.1.1</span></td><td class="date">Apr 13, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.1">1.1</span></td><td class="date">Feb 16, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.0.3">1.0.3</span></td><td class="date">Jan 02, 2012</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.0.2">1.0.2</span></td><td class="date">Nov 29, 2011</td><td class="note"></td>
+</tr>
+
+<tr>
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.0.1">1.0.1</span></td><td class="date">Oct 31, 2011</td><td class="note"></td>
+</tr>
+</tbody>
+<tbody>
+<tr class="">
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1">1</span></td><td class="date">Oct 17, 2011</td><td class="note"></td>
+</tr>
+
+<tr class=" last">
+<td class="dot"><i></i></td><td class="version"><span class="version-text" title="1.0">1.0</span></td><td class="date">Sep 29, 2011</td><td class="note">First tracked</td>
+</tr>
+
+<tr class="fold-close"><td colspan="4" class="dot"><b><span class="icon-chevron-up"></span> Collapse versions</b></td></tr>
+</tbody>
+
+</table>
+</div>
+    
+</div>
+      
+      
+
+
+<div class="app-box app-info-rating">
+<h3 class="rating_head">Average Ratings <span>(</span><span title="United States" class="country">United States</span><span>)</span><span class="more"><a href="/apps/ios/app/fitbit/ratings/" class="more_link">More Countries </a></span></h3>
+<div class="app-box-content"><div class="app_slide_container">
+  
+  <div class="app_slide current more" id="r_current_content">
+    <div class="app_slide_header" id="r_current">
+      <i class="fa fa-caret-down"></i><i class="fa fa-caret-right"></i>Current Version -  <strong>3.1</strong> - <strong>49</strong> ratings
+    </div>
+    <div class="app_slide_content">
+      <table class="rating_table" cellspacing="0" cellpadding="0">
+      
+      <tbody><tr>
+      <td class="stars">                          
+       <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 
+      </td>
+      <td class="bar"><div><div style="width: 26.5306122449%;"></div></div></td>
+      <td class="count">(13)</td>
+      </tr>
+      
+      <tr>
+      <td class="stars">                          
+       <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 
+      </td>
+      <td class="bar"><div><div style="width: 14.2857142857%;"></div></div></td>
+      <td class="count">(7)</td>
+      </tr>
+      
+      <tr>
+      <td class="stars">                          
+       <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 
+      </td>
+      <td class="bar"><div><div style="width: 24.4897959184%;"></div></div></td>
+      <td class="count">(12)</td>
+      </tr>
+      
+      <tr>
+      <td class="stars">                          
+       <i class="fa fa-star"></i><i class="fa fa-star"></i> 
+      </td>
+      <td class="bar"><div><div style="width: 8.16326530612%;"></div></div></td>
+      <td class="count">(4)</td>
+      </tr>
+      
+      <tr>
+      <td class="stars">                          
+       <i class="fa fa-star"></i> 
+      </td>
+      <td class="bar"><div><div style="width: 26.5306122449%;"></div></div></td>
+      <td class="count">(13)</td>
+      </tr>
+      
+      </tbody></table>
+    </div>
+  
+  </div>
+  
+  <div class="app_slide more" id="r_all_content">
+    <div class="app_slide_header" id="r_all">
+      <i class="fa fa-caret-down"></i><i class="fa fa-caret-right"></i>All Versions -  <strong>4.0</strong> - <strong>49,735</strong> ratings
+    </div>
+    <div class="app_slide_content">
+      <table class="rating_table" cellspacing="0" cellpadding="0">
+      
+      <tbody><tr>
+      <td class="stars">                          
+       <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 
+      </td>
+      <td class="bar"><div><div style="width: 55.8158238665%;"></div></div></td>
+      <td class="count">(27,760)</td>
+      </tr>
+      
+      <tr>
+      <td class="stars">                          
+       <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 
+      </td>
+      <td class="bar"><div><div style="width: 20.6594953252%;"></div></div></td>
+      <td class="count">(10,275)</td>
+      </tr>
+      
+      <tr>
+      <td class="stars">                          
+       <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> 
+      </td>
+      <td class="bar"><div><div style="width: 6.68141148085%;"></div></div></td>
+      <td class="count">(3,323)</td>
+      </tr>
+      
+      <tr>
+      <td class="stars">                          
+       <i class="fa fa-star"></i><i class="fa fa-star"></i> 
+      </td>
+      <td class="bar"><div><div style="width: 5.56348647834%;"></div></div></td>
+      <td class="count">(2,767)</td>
+      </tr>
+      
+      <tr>
+      <td class="stars">                          
+       <i class="fa fa-star"></i> 
+      </td>
+      <td class="bar"><div><div style="width: 11.2797828491%;"></div></div></td>
+      <td class="count">(5,610)</td>
+      </tr>
+      
+      </tbody></table>
+    </div>
+  <div class="rating_date">Updated on Sep 22, 2015</div>
+  </div>
+  
+</div></div>
+</div>
+
+      
+      <div class="app-box-itemlist about_app">
+    
+        <h3>About</h3>
+    
+    
+        <div class="app-box-content"><p><b>Compatibility:</b> Universal</p><p><b>Category:</b> Health and Fitness</p><p><b>Updated:</b> Sep 21, 2015</p><p><b>Version:</b> 2.14</p><p><b>Size:</b> 25.7 MB</p><p><b>Language:</b> English, French, German, Italian, Japanese, Korean, Simplified Chinese, Spanish</p><p><b>Seller:</b> Fitbit, Inc.</p><p><b>Rating: </b>Rated 4+</p><p><b>Family Sharing:</b> Yes</p><p><b>Requirements:</b> Requires iOS 7.0 or later. Compatible with iPhone, iPad, and iPod touch.</p><p><b>Bundle ID:</b> com.fitbit.FitbitMobile</p><p><b>Supports Apple Watch:</b> No</p></div>
+    
+</div>
+      
+    </div><!--app_sidebar-->
+
+    <!-- ******************* more sections ******************* -->
+    
+      <div class="app-content-more-sections">
+        
+          <div class="x-clear more-related-box">
+            
+              
+                
+                  <div class="app_content_section">
+  <h3>Customers Also Bought</h3>
+  <ul>
+  
+    <li><a href="/apps/ios/app/lose-it-weight-loss-program/" title="Lose It! – Weight Loss Program and Calorie Counter"><img src="https://static-s.aa-cdn.net/img/ios/297368629/7df7ff43c86d4088eb355ce7196d15cf" class="app_icon">
+    <span class="app_name">Lose It! – Weight Loss Program and Calorie Counter</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+    <li><a href="/apps/ios/app/calorie-counter-diet-tracker-2/" title="Calorie Counter &amp; Diet Tracker by MyFitnessPal"><img src="https://static-s.aa-cdn.net/img/ios/341232718/c108f29118c011087423eafb00088449" class="app_icon">
+    <span class="app_name">Calorie Counter &amp; Diet Tracker by MyFitnessPal</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+    <li><a href="/apps/ios/app/calorie-counter-diet-tracker-2-3/" title="Calorie Counter and Diet Tracker by Calorie Count"><img src="https://static-s.aa-cdn.net/img/ios/367018196/a536e159d4f1c789913a2113f2c58463" class="app_icon">
+    <span class="app_name">Calorie Counter and Diet Tracker by Calorie Count</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+    <li><a href="/apps/ios/app/fooducate-healthy-weight-loss/" title="Fooducate - Healthy Weight Loss, Food Scanner &amp; Diet Tracker"><img src="https://static-s.aa-cdn.net/img/ios/398436747/bd1abf7ea0109bf693736421fc8482fd" class="app_icon">
+    <span class="app_name">Fooducate - Healthy Weight Loss, Food Scanner &amp; Diet Tracker</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+    <li><a href="/apps/ios/app/jillian-michaels-slim-down-weight-loss-diet-fitness-workout-exercise-solution/" title="Jillian Michaels Slim-Down: Weight Loss, Diet, Fitness, Workout &amp; Exercise Solution"><img src="https://static-s.aa-cdn.net/img/ios/399841706/22ee0f404d135a9f1d5dbcc4ace1b6e7" class="app_icon">
+    <span class="app_name">Jillian Michaels Slim-Down: Weight Loss, Diet, Fitness, Workout &amp; Exercise Solution</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+    <li><a href="/apps/ios/app/interval-timer-timing-for-hiit-training-and-workouts/" title="Interval Timer - Timing for HIIT Training and Workouts"><img src="https://static-s.aa-cdn.net/img/ios/406473568/399a6625f18be006403cfccbf751288f" class="app_icon">
+    <span class="app_name">Interval Timer - Timing for HIIT Training and Workouts</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+    <li><a href="/apps/ios/app/5k-runner-0-to-5k-run-training/" title="5K Runner: 0 to 5K Trainer. Run 5K Free"><img src="https://static-s.aa-cdn.net/img/ios/448357306/c01fd24ce85bec2e66078d0d5e429bde" class="app_icon">
+    <span class="app_name">5K Runner: 0 to 5K Trainer. Run 5K Free</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+    <li><a href="/apps/ios/app/couch-to-5k-running-app-training/" title="Couch to 5K® - Running App, Training Coach and GPS Tracker"><img src="https://static-s.aa-cdn.net/img/ios/448474423/141ea64045c2c16e0607a18831382109" class="app_icon">
+    <span class="app_name">Couch to 5K® - Running App, Training Coach and GPS Tracker</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+    <li><a href="/apps/ios/app/c25k-5k-trainer-free-go-from/" title="C25K® - 5K Trainer FREE - (Go from Couch Potato to Running the 5K)"><img src="https://static-s.aa-cdn.net/img/ios/485971733/35c231367754c478039597838f64e045" class="app_icon">
+    <span class="app_name">C25K® - 5K Trainer FREE - (Go from Couch Potato to Running the 5K)</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+    <li><a href="/apps/ios/app/myplate-calorie-tracker-by/" title="MyPlate Calorie Tracker by LIVESTRONG.COM - Your Diet and Fitness Calorie Counter for Better Health"><img src="https://static-s.aa-cdn.net/img/ios/502317923/cdc7318318a08f711754591d7032809a" class="app_icon">
+    <span class="app_name">MyPlate Calorie Tracker by LIVESTRONG.COM - Your Diet and Fitness Calorie Counter for Better Health</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+    <li><a href="/apps/ios/app/fitocracy-workout-exercise-log-and-personal-fitness-coach-for-weight-loss/" title="Fitocracy - Workout Exercise Log and personal fitness coach for weight loss"><img src="https://static-s.aa-cdn.net/img/ios/509253726/7330f73c7b60394451a2ef48f0304825" class="app_icon">
+    <span class="app_name">Fitocracy - Workout Exercise Log and personal fitness coach for weight loss</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+    <li><a href="/apps/ios/app/running-for-weight-loss-interval-training-plan-gps-how-to-lose-weight-tips-by-red-rock-apps/" title="Running for Weight Loss: interval training plan, GPS, how-to-lose-weight tips by Red Rock Apps"><img src="https://static-s.aa-cdn.net/img/ios/636240052/d4ccca0d4ce7d7604afcda5a495d7d33" class="app_icon">
+    <span class="app_name">Running for Weight Loss: interval training plan, GPS, how-to-lose-weight tips by Red Rock Apps</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+    <li><a href="/apps/ios/app/mindbody-connect/" title="MINDBODY Connect"><img src="https://static-s.aa-cdn.net/img/ios/689501356/b448302ff00766498284a765726e6c58" class="app_icon">
+    <span class="app_name">MINDBODY Connect</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+    <li><a href="/apps/ios/app/happify-2/" title="Happify"><img src="https://static-s.aa-cdn.net/img/ios/730601963/bea6861e3414396320426ddd89328098" class="app_icon">
+    <span class="app_name">Happify</span>
+    <span class="category">Health and Fitness</span>
+    </a></li>
+  
+  </ul>
+</div>
+
+                
+              
+            
+          </div>
+        
+      </div>
+    
+  
+</div><!--app_details-->
+
+            </div>
+
+            
+<div>
+    
+    
+
+    
+
+</div>
+
+            
+<div class="item_id_display">
+    App&nbsp;ID:&nbsp; 462638897 
+    &nbsp;<a id="item-id-text" href="javascript:void(0)" data-clipboard-text="462638897">[Copy]</a>
+    </div>
+
+        </div>
+    </div>
+    <div class="left-sidebar-bg"></div>
+    <!-- app_frame content end  -->
+</div>

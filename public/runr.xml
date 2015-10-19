@@ -1,0 +1,960 @@
+<div class="ngCanvas" ng-style="canvasStyle()" style="height: 3478px;">
+        <!-- ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 0px; height: 76px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Awful app, crashes and freezes</strong>
+            <span>by <strong class="ng-binding">Gusapuy</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">In a short run of 20 mins it only worked 4 mins, the rest of the time it froze, don't use this app.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Aug 11, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 76px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.2</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 76px; height: 76px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Love it</strong>
+            <span>by <strong class="ng-binding">💛💓💙💕💜💖💚💞</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">I love this app it is a good app for my kids! It make them run🏃🏃 all day!</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Aug 05, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 76px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.2</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 152px; height: 114px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">That should call this crasher not runt</strong>
+            <span>by <strong class="ng-binding">Jc127</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">I opened it, it crashes.  I open it again, it crashes again ---repeat repeat repeat. My wife downloads it and it does the same thing on her I phone6 too. This app is a joke. One out of four times it will work. Pretty useless if you actually intend to run.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Aug 01, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 114px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.2</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 266px; height: 95px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Bad</strong>
+            <span>by <strong class="ng-binding">Berk742</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">I spent time to write a full review my problem with program pausing then when I hit send it said the name I had chosen was taken and it threw out everything I wrote</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Jul 26, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 95px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.2</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 361px; height: 76px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Easy to use</strong>
+            <span>by <strong class="ng-binding">almost mountains</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">This is so simple and easy to use. I just step out the door and hit start. Love the updates and easy to read display</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Jun 22, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 76px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 437px; height: 152px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 152px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 152px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Pretty good running app. A few improvements though</strong>
+            <span>by <strong class="ng-binding">Not_Chinese</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">Good app, nice interface, and very useful. 
+
+Some improvements could be caloric count not being 0 all the time ( although I do not use it, it is odd hearing that your 5k ended up at 0 kcals ) and not having to buy a better version to keep all your logs. $3.99 a year or $0.99 a month. Really?</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 152px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Jun 09, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 152px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 152px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 589px; height: 190px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 190px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 190px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 190px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 190px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Distance and Pace Calculations Off?</strong>
+            <span>by <strong class="ng-binding">arjgn</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">This is the first running app I have used.  I like that it starts quickly and gives updates.  However, it gives me different distance calculations than my car.  It appears to be about .25 miles under distance.  It also doesn't display the calorie count either.  I'm not so concerned about the calorie count, so that is not a real issue with me.  Also, as another person mentioned, the pace tracker seems to be way off.  I was sprinting and it told me that I was doing a 14 min/mile pace.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 190px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 190px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">May 06, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 190px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 190px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 190px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 190px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 779px; height: 133px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 133px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 133px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Decent but Pace Calculations are Wrong</strong>
+            <span>by <strong class="ng-binding">DME244</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">I like this app a lot except the calculations for your run pace are way off. I was running at about a 9 minute mile pace based on total time and distance, but every quarter mile it would give an update with the pace fluctuating from 6 to 14 minute miles. Fix that bug and I would rate it 5 stars.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 133px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">May 03, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 133px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 133px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 912px; height: 152px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 152px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 152px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Slow voice feedback</strong>
+            <span>by <strong class="ng-binding">Cristygen</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">I used to love this app especially because the running feedback was fast so I didn't miss much of the podcasts I listen to when I run. But the new update, the voice is super slow! At first, I thought there was something wrong with the fun but it's the voice. At least make it normal speed, it's like 0.5X the normal speaking speed and it's super annoying.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 152px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">May 01, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 152px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 152px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 1064px; height: 152px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 152px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 152px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Looks cool but today fail</strong>
+            <span>by <strong class="ng-binding">c0ff33</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">I had not used the app before today's run. I was excited to give it a shot. Looked pretty cool and I liked the features. 
+But...
+As soon as I navigated away to other apps like my camera, it stopped recording data. Our 5k looks like. 10 min 1k run :-(
+I'll keep it on my phone till I find another option or it can be run in the background.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 152px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Apr 04, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 152px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 152px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 152px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.0.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 1216px; height: 133px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 133px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 133px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Runr</strong>
+            <span>by <strong class="ng-binding">coolbeans#5</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">I have had constant issues with this app. It works great of you leave it up and running but if it becomes a "background" program it stops recording distance/location which is total bull when you are trying to get a good run time in. Over this app, buying a garmin watch</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 133px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Mar 20, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 133px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 133px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.0.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 1349px; height: 114px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">I've liked it for a while now</strong>
+            <span>by <strong class="ng-binding">Jubz0978</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">So with the new update, for those of us who had it before, we automatically got bumped up to premium. However, I can't get my music controls anymore and that was personally my favorite part of the app. Is there a way to fix this problem?</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Mar 10, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 114px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.0.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 1463px; height: 57px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Favorite run tracker app</strong>
+            <span>by <strong class="ng-binding">suprabobo</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">Love the integration with Game Center and the ease of use.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Mar 01, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 57px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.0</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 1520px; height: 76px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Favorite Running Companion</strong>
+            <span>by <strong class="ng-binding">Spam.Sencer</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">It's so much easier and cleaner than other apps I've tried. I really like this one! Absolutely fantastic, my favorite on the App Store.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Feb 26, 2015</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 76px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">2.0</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 1596px; height: 95px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Doesn't restart</strong>
+            <span>by <strong class="ng-binding">Alechrisara</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">It doesn't restart your run after it pauses. Also screws with the volume not coming back up. Probably going on my app garbage pile.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Sep 13, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 95px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.3</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 1691px; height: 114px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Useful app</strong>
+            <span>by <strong class="ng-binding">Designer of dreams</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">I've used this to track when I walk every night. It's good to see the distance for each route I take and all the variations, and it's a nice motivator to be made aware as I'm burning calories and reaching distances.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Sep 11, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 114px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.3</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 1805px; height: 95px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Great Running App</strong>
+            <span>by <strong class="ng-binding">cmoushey</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">Encouraging updates. Easy to share a run. Friendly and motivating reminders. Impeccable GPS and distance accuracy. My favorite running buddy!</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Sep 09, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 95px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.3</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 1900px; height: 76px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"><img src="/media/pictures/star-blank.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Stupid</strong>
+            <span>by <strong class="ng-binding">NateN23</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">It stops counting when you turn the growling phone off so I didn't get anything on my run</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Jun 22, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 76px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.2</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 1976px; height: 95px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Great app</strong>
+            <span>by <strong class="ng-binding">Joshuadbrown</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">I love that I can map out my run and keep track of my progress. It also helps to have the little run reminders when I'm not quite feeling like exercising! :)</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">May 16, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 95px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 2071px; height: 76px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Great app. Keeps me on track on my runs.</strong>
+            <span>by <strong class="ng-binding">@collinbanister</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">Love this app</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">May 14, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 76px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 2147px; height: 114px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Very cool</strong>
+            <span>by <strong class="ng-binding">Randall Brown</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">I'm a beginner "app" runner, so I definitely didn't want anything complicated. Runr has ultra simplistic UX so you can concentrate on the run and not some unwieldy interface on your phone. Also does a great job as additional motivation!</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">May 06, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 114px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 2261px; height: 57px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Awesome</strong>
+            <span>by <strong class="ng-binding">MahlerRage</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">Simple and motivating</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">May 05, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 57px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 2318px; height: 57px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Run</strong>
+            <span>by <strong class="ng-binding">Mahdi 74</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">BesT.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Apr 26, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 57px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.2</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 2375px; height: 57px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">WOW</strong>
+            <span>by <strong class="ng-binding">James PJ</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">Very useful  I will be using it myself</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Apr 20, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 57px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 2432px; height: 114px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Simple, yet fun</strong>
+            <span>by <strong class="ng-binding">Christopher Green</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">This app does EXACTY what you want: tracks your runs. No fancy accounts. Just running. The scoring and competitions through Game Center are silly, but they add to the fun. I think this may replace Runkeeper for me.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Apr 18, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 114px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 2546px; height: 57px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">WORTH THE BUY</strong>
+            <span>by <strong class="ng-binding">ASAP-Shawn</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">This app keeps me fitKeeps me from being boredAmazing</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Apr 17, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 57px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 2603px; height: 114px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Great Running App</strong>
+            <span>by <strong class="ng-binding">D Lip</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">It is very simple, which I like. I have used other apps, such as Runtastic and MapMyRun. They are nice, but sometimes a little too busy. Runr is very clean, with less of the complexity in the other apps.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Apr 17, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 114px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 2717px; height: 95px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Best runner app on Appstore!</strong>
+            <span>by <strong class="ng-binding">Zlizard</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">The integration with Game Center is really clever and achievements make running even more fun! The interface is also really minimalistic and nice!Greetings from Sweden.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Apr 16, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 95px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 95px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 95px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 2812px; height: 114px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Different, in a great way</strong>
+            <span>by <strong class="ng-binding">RazorSharp1296</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">Runr is different from all other running apps I tried. I don't have to mess with settings. I like it. And the Game Center achievements / scores are a nice touch. Very well designed, thought out and executed.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Apr 10, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 114px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.0</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 2926px; height: 57px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Favorite run tracker app</strong>
+            <span>by <strong class="ng-binding">suprabobo</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">Love the integration with Game Center and the ease of use.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Apr 05, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 57px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 57px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 57px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 2983px; height: 76px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Runr app</strong>
+            <span>by <strong class="ng-binding">Slowpoke Runner</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">Love the ease of this app. Feedback keeps me on track and motivated.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Mar 30, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 76px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 76px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 76px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.1.1</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 3059px; height: 133px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 133px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 133px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Awesome app!</strong>
+            <span>by <strong class="ng-binding">rangerroland</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">This is an elegant and simple app for runners that blows other running apps out of the water. It is secure--it doesn't share your running location or info without your permission. More impressive is the ease with which you can begin to track your run. Just tap Start a Run. In a word, Awesome!</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 133px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Mar 14, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 133px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 133px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 133px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.0</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow even" style="top: 3192px; height: 171px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 171px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 171px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 171px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 171px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">My friends and I love it</strong>
+            <span>by <strong class="ng-binding">The Puerto Rican white boy</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">Possibly the best app for running made, ever! This app is really different from all the other running apps that are out there, and it's the good that sets it apart. The leaderboards and races make it fun and competitive for my friends and I, and the graphs show us meaningful data - not some mumbo jumbo that would require a certification to understand. I really like this app and hope that other people do too!</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 171px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 171px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Mar 12, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 171px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 171px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 171px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 171px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.0</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows --><div ng-style="rowStyle(row)" ng-repeat="row in renderedRows" ng-click="row.toggleSelected($event)" ng-class="row.alternatingRowClass()" ng-row="" class="ng-scope ngRow odd" style="top: 3363px; height: 114px;"><!-- ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col0 colt0" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner ng-scope">
+        <span aa-stars="" stars="row.getProperty(col.field)"><nobr><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"><img src="/media/pictures/star-whole.png" alt="*"></nobr></span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col1 colt1" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-review ng-scope">
+        <div>
+            <strong aa-bind-html="row.getProperty('title') | aaHighlight:searchKeywords" class="ng-binding">Way different, in a good way</strong>
+            <span>by <strong class="ng-binding">RazorSharp1296</strong></span>
+        </div>
+        <div class="review-content ng-binding" aa-bind-html="row.getProperty('content') | aaHighlight:searchKeywords">Runr is a lot different from all of the other running apps out there - it's clean, it's simple, I don't have to mess with a pile of settings. I like it. And the Game Center achievements / scores are a nice touch. Very well designed, thought out and executed.</div>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col2 colt2" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt2 col-date"><span ng-cell-text="" class="ng-binding">Mar 08, 2014</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col3 colt3" style="height: 114px;">
+    <div class="ngVerticalBar ngVerticalBarVisible" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner cell-country ng-scope">
+        <span title="United States" class="ng-binding">
+            <img ng-src="/media/pictures/flags/gif/us.gif" src="/media/pictures/flags/gif/us.gif">
+            US
+        </span>
+    </div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --><div ng-repeat="col in renderedColumns" ng-class="{'sorted': col.sortDirection}" class="ngCell col4 colt4" style="height: 114px;">
+    <div class="ngVerticalBar" ng-style="{height: rowHeight}" ng-class="{ ngVerticalBarVisible: !$last }" style="height: 114px;">&nbsp;</div>
+    <div ng-cell=""><div class="ngCellText cell-inner colt4 col-version"><span ng-cell-text="" class="ng-binding">1.0</span></div></div>
+  </div><!-- end ngRepeat: col in renderedColumns --></div><!-- end ngRepeat: row in renderedRows -->
+    </div>

@@ -2,6 +2,8 @@ class CreateFullratings < ActiveRecord::Migration
   def change
     create_table :fullratings do |t|
       t.string :name
+      t.string :store
+      t.string :price
       t.string :country
       t.string :compatibility
       t.string :category

@@ -1,0 +1,31 @@
+class CreateSubjectinfos < ActiveRecord::Migration
+  def change
+    create_table :subjectinfos do |t|
+      t.string :esearch
+      t.string :regulatoryfocus
+      t.integer :mobile_user
+      t.integer :appstore
+      t.integer :visit_frequency
+      t.integer :app_expense
+      t.integer :previous_experience
+      t.string :age
+      t.integer :gender
+      t.integer :income
+      t.integer :involvement1
+      t.integer :involvement2
+      t.integer :involvement3
+      t.integer :rf1
+      t.integer :rf2
+      t.integer :rf3
+      t.integer :rf4
+      t.integer :rf5
+      t.integer :rf6
+      t.integer :rf7
+      t.string :ipaddress
+      t.datetime :starttime
+      t.datetime :endtime
+
+      t.timestamps
+    end
+  end
+end

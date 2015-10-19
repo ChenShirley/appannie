@@ -34,6 +34,12 @@ class CreateRealapps < ActiveRecord::Migration
       t.string :requirements
       t.string :bundleid
 
+			t.text :screenshot1
+			t.text :screenshot2
+			t.text :screenshot3
+			t.text :screenshot4
+			t.text :screenshot5
+
       t.timestamps
     end
   end

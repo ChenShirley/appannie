@@ -1,0 +1,27 @@
+<div class="ui raised very padded text container segment" style="margin:1em auto;">
+	<p class="introduction">
+
+		<p class="notice" style="color: red; text-align:center;"><%= flash[:notice] %></p>
+
+		<h2 class="ui center aligned header">Exploring How Mobile Users Interpret the Shape of Ratings Distributions</h2>
+		</br>
+		<div>
+			This is a questionnaire about "Exploring How Mobile Users Interpret the Shape of Ratings Distributions".
+			If you are a <strong>mobile device user</strong> and <strong>have used app store once</strong>, please help us complete this research.
+			There are three parts in this questionnaire - your app store experence, your app purchasing behavior in app store, and your perception toward apps when evaluating.
+			Thank you.
+		</div>
+		</br>
+		<div
+			National Tsing Hua University</br>
+			Institute of Service Science</br>
+			Advisor: Prof. Soumya Ray</br>
+			Student: Pei-Rong Chen</br>
+			Email: shirley7483@gmail.com</br>
+		</div>
+		</br>
+		<div style="text-align:center;">
+			<%= button_to "START", new_mockup_path, :method => :get, :class => "ui button" %>
+		</div>
+	</p>
+</div>

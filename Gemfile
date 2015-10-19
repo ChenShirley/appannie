@@ -21,9 +21,18 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'semantic-ui-rails'
+
+gem 'less-rails-semantic_ui'
+gem 'autoprefixer-rails'
+gem 'less-rails'
+gem 'therubyracer'
 
 gem 'nokogiri'
 gem 'httparty'
+
+gem 'mechanize'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

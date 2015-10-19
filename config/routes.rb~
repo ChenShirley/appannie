@@ -3,9 +3,40 @@ AppAnnie::Application.routes.draw do
 	match ':controller(/:action(/:id(.:format)))', :via => :all
 	root :to => "ranking#index"
 	resources :rating
+  # get "rating/scrape"=>"rating#scrape"
+  # post "rating/scrape"=>"rating#scrape"
 	resources :ranking
 	resources :search
 	resources :review
+  get "review/scrape"=>"review#scrape"
+  post "review/scrape"=>"review#scrape"
+	resources :realapp
+  get "realapp/scrape"=>"realapp#scrape"
+  post "realapp/scrape"=>"realapp#scrape"
+	resources :mockup
+  get "mockup/rfscenario/:id"=>"mockup#rfscenario"
+  post "mockup/rfscenario/:id"=>"mockup#rfscenario"
+  put "mockup/rfscenario/:id"=>"mockup#rfscenario"
+
+  get "mockup/applist/:id"=>"mockup#applist"
+  post "mockup/applist/:id"=>"mockup#applist"
+  put "mockup/applist/:id"=>"mockup#applist"
+
+  get "mockup/detail/:esearch/:apporder"=>"mockup#detail"
+  post "mockup/detail/:esearch/:apporder"=>"mockup#detail"
+  put "mockup/detail/:esearch/:apporder"=>"mockup#detail"
+
+  get "mockup/review/:esearch/:apporder"=>"mockup#review"
+  post "mockup/review/:esearch/:apporder"=>"mockup#review"
+  put "mockup/review/:esearch/:apporder"=>"mockup#review"
+
+  get "mockup/survey/:esearch"=>"mockup#survey"
+  post "mockup/survey/:esearch"=>"mockup#survey"
+  put "mockup/survey/:esearch"=>"mockup#survey"
+
+  get "mockup/endsurvey"=>"mockup#endsurvey"
+  post "mockup/endsurvey"=>"mockup#endsurvey"
+  put "mockup/endsurvey"=>"mockup#endsurvey"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

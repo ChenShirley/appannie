@@ -2,6 +2,7 @@ class CreateRatings < ActiveRecord::Migration
   def change
     create_table :ratings do |t|
       t.string :name
+      t.string :price
       t.string :country
       t.string :average_current
       t.string :total_current

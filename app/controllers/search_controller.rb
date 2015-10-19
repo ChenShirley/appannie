@@ -5,7 +5,9 @@ class SearchController < ApplicationController
 	require 'httparty'
 
 	def index
+		@realapp = Realapp.all
 
+=begin
 		# 100 recoed
 		count = 0
 		while count < 100	do
@@ -27,6 +29,8 @@ class SearchController < ApplicationController
 			# avoid IP blocked by app annie because of frequently request 
 			sleep 1
 		end
+=end
+
 =begin
 		@searchrecord = Search.offset(512).limit(10).all
 		

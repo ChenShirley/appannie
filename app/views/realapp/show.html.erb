@@ -1,0 +1,7 @@
+<center>
+<%= form_tag '/realapp/scrape/', :method=>:post do %>
+  <%= label :user, :name, 'app file name：'%>	</br>
+  <%= text_field :user, :name, :autocomplete=>"off" %>
+	<%= submit_tag 'scrape data'%>
+<% end%>
+</center>

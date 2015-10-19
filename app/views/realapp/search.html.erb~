@@ -1,0 +1,7 @@
+<center>
+<%= form_tag '/startaproject/param/searchresult/', :method=>:post do %>
+  <%= label :user, :name, '會員信箱查詢：'%>	請輸入欲查詢會員註冊的姓名或信箱</br>
+  <%= text_field :user, :name, :autocomplete=>"off" %>
+	<%= submit_tag '查詢'%>
+<% end%>
+</center>

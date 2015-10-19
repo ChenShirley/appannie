@@ -1,0 +1,65 @@
+<%= javascript_include_tag "jquery.min" %>
+<%= stylesheet_link_tag "semantic.min" %>
+<%= javascript_include_tag "semantic.min" %>
+
+<script>
+	function on() {
+		if($('#yes').checkbox('is radio')){
+			$('#submit').removeClass('disabled');
+		}
+	}
+	function off() {
+		if($('#no').checkbox('is radio')){
+			$('#submit').addClass('disabled');
+		}
+	}
+</script>
+
+<div class="ui raised very padded text container segment" style="margin:1em auto;">
+	<p class="subject_info">
+		<h2 class="ui header">App Store Experience</h2>
+		
+		<div>
+			The list below is what app store recommend you when search for an health & fitness app.
+			You are going to evaluate those apps and decide one app to purchase.
+			There are no time restriction. You can evaluate any app you like or all apps on the list.
+			The only thing you need to remember is to behave what you usually do when you purchase apps as usual. 
+			After you decide which app to purchase and click the button “$0.99”, there would be a following survey to finish.
+		</div>
+
+		<div class="rf">
+			<% if @subject.regulatoryfocus=="promotion" %>
+				Regular exercise provide your body greater energy, so you can get through the day, and even enhance your work performance. 
+			<% elsif @subject.regulatoryfocus=="prevention" %>
+				No more exhausted, frustrated, and annoyed! 
+				Regular exercise makes endorphins which help you stay away from negative emotions. 
+				Regular exercise reduce the risk of chronic diseases and help prevent disease.
+			<% end %>
+		</div>
+
+		<div class="ui form item">
+		  <div class="grouped fields">
+			Have you read the scenario and understand the requirements completely? </br>
+			(please make sure you have carefully reviewed the scenario)
+				<div class="field">
+					<div class="ui radio checkbox" id="yes" onclick="on()">
+					<input type="radio" name="scenario">
+					<label>Yes</label>
+					</div>
+				</div>
+				<div class="field">
+					<div class="ui radio checkbox" id="no" onclick="off()">
+					<input type="radio" name="scenario">
+					<label>No</label>
+					</div>
+				</div>
+		  </div>
+		</div>
+
+		<div style="text-align:center;">
+			<%= button_to "NEXT", mockup_path, :method => :get, :class => "ui disabled button", :id => "submit", :params => {:esearch => @subject.esearch} %>
+		</div>
+	</p>
+</div>
+
+???????????????????????????????
